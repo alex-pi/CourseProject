@@ -1,0 +1,915 @@
+Label,Input URL,University Name,Department Name,Faculty Directory Homepage
+1,https://cs.illinois.edu/,University of Illinois at Urbana-Champaign,Computer Science,https://cs.illinois.edu/about/people/all-faculty
+0,https://extension.illinois.edu/,,,
+0,https://campusrec.illinois.edu/,,,
+1,https://csd.cmu.edu/,Carnegie Mellon University,Computer Science,https://www.csd.cs.cmu.edu/directory/faculty
+0,https://nextpittsburgh.com/,Carnegie Mellon University,,
+0,https://www.cmu.edu/engage/give/opportunities/index.html,Carnegie Mellon University,,
+1,https://cs.stanford.edu/,Stanford University,Computer Science,https://www.cs.stanford.edu/directory/faculty
+0,https://support.cs.stanford.edu/hc/en-us,,,
+0,https://gostanford.com/,,,
+1,https://cs.uic.edu/,University of Illinois in Chicago,Computer Science,https://cs.uic.edu/faculty-staff/faculty/
+0,https://cybertalentinitiative.org/,,,
+1,https://www.cs.uchicago.edu/,University of Chicago,Computer Science,https://www.cs.uchicago.edu/people/faculty/
+0,https://www.chicago.gov/city/en/sites/covid-19/home/emergency-travel-order.html,,,
+1,https://cs.vt.edu/,Virrginia Tech,Computer Science,https://cs.vt.edu/People/Faculty.html
+0,https://www.bkstr.com/virginiatechstore/home,,,
+1,https://www.cs.purdue.edu/index.html,Purdue University,Computer Science,https://www.cs.purdue.edu/people/faculty/index.html
+0,https://www.lib.purdue.edu/,,,
+1,https://www.cs.washington.edu/,University of Washington,Computer Science,https://www.cs.washington.edu/people/faculty
+0,https://www.uwmedicine.org/,,,
+1,https://www.eecs.mit.edu/,MIT,Computer Science,https://www.eecs.mit.edu/people/faculty-advisors
+0,http://calendars.mit.edu/eecs,,,
+1,https://www.scs.gatech.edu/,Georgia Tech,Computer Science,https://www.scs.gatech.edu/people/faculty
+1,https://samueli.ucla.edu/,UCLA,Computer Science,https://www.cs.ucla.edu/faculty/
+1,,The University of Texas at Austin,Computer Science,https://www.cs.utexas.edu/faculty
+1,,University of Wisconsin-Madison,Computer Science,https://www.cs.wisc.edu/people/faculty/
+1,,UC Berkeley,Computer Science,https://www2.eecs.berkeley.edu/Faculty/Lists/CS/faculty.html
+1,,California Institute of Technology ,Computer Science,http://www.cms.caltech.edu/people
+1,,Cornell University ,Computer Science,https://www.cs.cornell.edu/people/faculty
+1,,University of Colorado Boulder,Computer Science,https://www.colorado.edu/cs/faculty
+1,,Michigan State University,Computer Science and Engineering,http://www.cse.msu.edu/People/
+1,,University of Pennsylvania,Computer and Information Science,http://www.cis.upenn.edu/about-people/index.php
+1,,University of Michigan,Computer Science and Engineering,http://www.eecs.umich.edu/eecs/faculty/csefaculty.html
+1,,University of Alabama,Computer Science,http://cs.ua.edu/people/
+1,,Cambridge University,Computer Science,https://www.cl.cam.ac.uk/people/academic.html
+1,,University of Melbourne,Computer Science,https://cis.unimelb.edu.au/people/
+1,,Rice University,Computer Science,https://csweb.rice.edu/faculty
+1,,University of Toronto,Computer Science,http://web.cs.toronto.edu/people/faculty.htm
+1,,University of Georgia,Computer Science,http://www.cs.uga.edu/faculty-directory
+1,,Johns Hopkins University,Computer Science,https://www.cs.jhu.edu/faculty/
+1,,University of British Columbia,Computer Science,https://www.cs.ubc.ca/our-department/people/faculty
+1,,University of Southern California,Computer Science,https://www.cs.usc.edu/directory/faculty/
+1,,University of North Carolina at Chapel Hill,Computer Science,https://cs.unc.edu/people-page/faculty/
+1,,Harvard University,Computer Science,https://www.seas.harvard.edu/computer-science/people
+1,,UC Davis,Computer Science,https://www.cs.ucdavis.edu/people/faculty/
+1,,Texas Tech University,Computer Science,https://www.depts.ttu.edu/cs/faculty/
+1,,University of Oxford ,Computer Science,http://www.cs.ox.ac.uk/people/faculty.html
+1,,UC San Diego,Computer Science and Engineering,https://cse.ucsd.edu/people/faculty-profiles/faculty
+1,,San Francisco State University,Computer Science,https://cs.sfsu.edu/people/faculty-and-staff
+1,,Ohio State University,Computer Science,https://cse.osu.edu/about-us/faculty
+1,,University of Rochester,Computer Science,http://www.cs.rochester.edu/wcms/people/faculty/
+1,,Duke University ,Computer Science ,https://www.cs.duke.edu/people/faculty
+1,,UC Santa Barbara,Computer Science,https://www.cs.ucsb.edu/people
+1,,University of Oklahoma,Computer Science,http://www.ou.edu/coe/cs/people
+1,,Yale University,Computer Science,https://cpsc.yale.edu/people/faculty
+1,,Princeton University,Computer Science,https://www.cs.princeton.edu/people/faculty
+1,,Brown University,Computer Science,http://cs.brown.edu/people/faculty/
+1,,Boston University,Computer Science,https://www.bu.edu/cs/people/faculty/
+1,,Columbia University,Computer Science,https://www.cs.columbia.edu/people/faculty/
+1,https://cs.nyu.edu/,New York University,Computer Science,https://cs.nyu.edu/dynamic/people/faculty/
+1,,Northeastern University,Computer Science,https://www.khoury.northeastern.edu/role/teaching-faculty/
+1,,University of Wisconsin-Greenbay,Computer Science,https://www.uwgb.edu/computer-science/faculty-staff/
+1,,Florida International University,Computer and Information Science,https://www.cis.fiu.edu/people/faculty/
+1,,Tufts University,Computer Science,https://engineering.tufts.edu/cs/people/faculty
+1,,Georgetown University,Computer Science,https://cs.georgetown.edu/people/faculty
+1,,University of Pennsylvania,Bio Engineering,"http://www.ese.upenn.edu/about-people/index.php
+"
+1,,North Carolina State University,Computer Science,https://www.csc.ncsu.edu/directories/faculty.php
+1,,UC Irvine,Computer Science,https://www.ics.uci.edu/faculty/
+1,,Rensselaer Polytechnic Institute,Computer Science,https://science.rpi.edu/computer-science/faculty
+1,,UC Santa Cruz,Computer Science and Engineering ,https://www.soe.ucsc.edu/departments/computer-science-engineering/people/faculty
+1,,Stony Brook University,Computer Science,https://www.cs.stonybrook.edu/people/faculty
+1,,University of Minnesota,Computer Science and Engineering ,https://www.cs.umn.edu/people/faculty
+1,,UNIVERSITY OF MARYLAND,Computer Science,https://www.cs.umd.edu/people/faculty
+1,,Pomona College,Computer Science,https://www.pomona.edu/academics/departments/computer-science/faculty-staff
+1,,University of Edinburgh,Computer Science ,https://www.ed.ac.uk/informatics/people/academic
+1,,McGill University,Computer Science,https://www.cs.mcgill.ca/people/faculty/
+1,,Arizona State University,Comptuer Science,https://cidse.engineering.asu.edu/facultyandresearch/directory/faculty/
+1,,university of miami,Computer Science,https://csc.as.miami.edu/people/index.html
+1,,Marquette University,Computer Science,https://www.marquette.edu/mscs/facstaff-fac-directory.shtml
+1,,Vanderbilt University,Electrical Engineering and Computer Science,https://engineering.vanderbilt.edu/eecs/faculty-staff/index.php
+1,,Penn State University,Electrical Engineering and Computer Science,https://www.eecs.psu.edu/departments/cse-faculty-list.aspx
+1,,San Jose State Univeristy,Computer Science ,http://www.sjsu.edu/cs/community/faculty/index.html
+1,,Emory University,Computer Science,http://cs.emory.edu/people/faculty/asDir/
+1,,University of Illinois at Chicago,Computer Science,https://www.cs.uic.edu/staff/
+1,,University of Illinois at Chicago,Electrical & Computer Engineering,https://www.ece.uic.edu/faculty-staff/
+1,,Washington University in St. Louis,Computer Science,https://cse.wustl.edu/faculty/Pages/default.aspx
+1,,San Jose State Univeristy,Computer Science,https://www1.cs.ucr.edu/about/faculty
+1,,Carnegie Mellon University,Computer Science,https://www.csd.cs.cmu.edu/directory/faculty
+1,,Univeristy of Texas Arlington,Computer Science,https://cse.uta.edu/faculty-directory.php
+1,,Rutgers University,Computer Science,https://www.cs.rutgers.edu/
+1,https://www.engr.uky.edu/research-faculty/departments/electrical-computer-engineering,University of Kentucky,Electrical and Computer Engineering,https://www.engr.uky.edu/research-faculty/departments/electrical-computer-engineering/people
+1,,University of Virginia,computer science,https://engineering.virginia.edu/departments/computer-science/faculty
+1,http://www.ece.ucsd.edu/,University of california san diego,electrical and computer engineering,http://www.ece.ucsd.edu/people/faculty
+1,,University of Massachusetts Amherst,Information and Computer Sciences,https://www.cics.umass.edu/people/all-faculty-staff
+1,,"University of Florida, Gainsville",Computer & Information Science & Engineering,https://www.cise.ufl.edu/people/faculty/
+1,,Brandeis University ,Computer Science ,http://www.brandeis.edu/computer-science/people/index.html
+1,,Wellesley College,Computer Science,https://www.wellesley.edu/cs/faculty
+1,,Nanyang Technological University (NTU),Computer Science and Engineering,http://scse.ntu.edu.sg/Research/DMAL/people/Pages/Faculty.aspx
+1,,University of Oregon,Computer and Information Science,https://cs.uoregon.edu/people/faculty
+1,,University of Cincinnati,Electrical Engineering and Computer Science,https://ceas.uc.edu/academics/departments/electrical-engineering-computer-science/faculty.html
+1,,University of Notre Dame,Computer Science and Engineering,https://cse.nd.edu/people/faculty
+1,,Temple University,Computer & Information Sciences,https://cis.temple.edu/people/faculty/tenure
+1,,College of William and Mary,Computer Science,https://www.wm.edu/as/computerscience/faculty/index.php
+1,,Texas A and M,ECE,https://engineering.tamu.edu/electrical/profiles/index.html
+1,,Imperial College London,Department of Computing,https://www.imperial.ac.uk/computing/people/academic-staff/
+1,,University of California Merced,Electrical Engineering and Computer Science,http://eecs.ucmerced.edu/people
+1,,University of Central Florida,Computer Science,http://www.cs.ucf.edu/people/index.php
+1,,Massachusetts Institute of Technology,Electronical Engineering and Computer Science,https://www.cse.iitb.ac.in/page14
+1,,University of Wyoming,Computer Science,http://www.uwyo.edu/cosc/cosc-directory/
+1,,Harvey Mudd College,Computer Science,https://www.cs.hmc.edu/people/
+1,,Kent State University,Computer Science,https://www.kent.edu/cs/faculty-staff
+1,,George Mason University,Computer Science,https://cs.gmu.edu/directory/by-category/faculty/
+1,https://www.ece.cornell.edu/ece,Cornell University ,Electrical and Computer Engineering,https://www.ece.cornell.edu/faculty-directory/
+1,https://engineering.brown.edu/,Brown University,Electrical and Computer Engineering,https://www.brown.edu/academics/engineering/electrical-and-computer-engineering-faculty
+1,,University of Iowa,Computer Science,https://cs.uiowa.edu/people/faculty
+1,,IIT Madras,Computer Science and Engineering,http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw
+1,,University of Arizona,Computer Science,https://www.cs.arizona.edu/people/faculty
+1,,Iowa State University,Computer Science,https://www.cs.iastate.edu/people
+1,,Howard University,Computer Science,http://www.eece.cea.howard.edu/faculty
+1,,University of Waterloo,Computer Science,https://cs.uwaterloo.ca/about/people/group/49
+1,,Clemson University,Computer Science,https://www.clemson.edu/cecas/departments/computing/people/faculty/index.html
+1,,Southern Illinois University,Computer Science,https://cs.siu.edu/faculty-staff/continuing_faculty.php
+1,,Rose Hulman Institute of Technology,Computer Science & Software Engineering,https://www.rose-hulman.edu/academics/academic-departments/computer-science-software-engineering/faculty-and-staff.html
+1,https://www.ece.utoronto.ca/,University of Toronto,Electrical and Computer Engineering,https://www.ece.utoronto.ca/faculty/directory/
+1,,Syracuse University,Computer Science,http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/people/?filter=*
+1,,Stevens Institute of Technology,Computer Science,https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science/faculty-staff
+1,,Case Western Reserve University,Computer Science,http://engineering.case.edu/eecs/faculty-staff
+1,,UC Berkeley,Computer Science,https://www2.eecs.berkeley.edu/Faculty/Lists/CS/faculty.html
+1,,The University of Hong Kong,Computer Science,https://www.cs.hku.hk/people/academic.jsp
+1,,National University of Singapore ,Computer Science ,https://www.comp.nus.edu.sg/about/depts/cs/faculty/
+1,,University of Oxford,ENGINEERING,https://www.eng.ox.ac.uk/people/
+1,,Boston College,Computer Science ,https://www.bc.edu/content/bc-web/schools/mcas/faculty.html#computer_science
+1,,Elmhurst College,Computer Science,https://www.elmhurst.edu/academics/departments/computer-science-information-systems/faculty/
+1,,The Hong Kong University of Science and Technology,Computer Science and Engineering,https://www.cse.ust.hk/admin/people/faculty/
+1,,"University of Minnesota, Morris",Computer Science,https://academics.morris.umn.edu/computer-science/computer-science-faculty
+1,,Carnegie Mellon University,Civil and Environmental Engineering,https://www.cmu.edu/cee/people/faculty/index.html
+1,,Florida State University,Computer Science,https://www.cs.fsu.edu/department/faculty/
+1,,Fordham University,Computer and Information Science,"
+https://www.fordham.edu/info/25112/cis_faculty_and_administration"
+1,,University of Missouri,Electrical Engineering and Computer Science ,https://engineering.missouri.edu/academics/eecs/eecs-faculty/
+1,,University of San Francisco,Computer Science ,https://www.usfca.edu/arts-sciences/undergraduate-programs/computer-science/faculty
+1,,Haverford College,Computer science,https://www.haverford.edu/computer-science/faculty-staff
+1,,University of Pittsburgh,Computer Science,http://sci.pitt.edu/faculty-and-research/faculty/
+1,,Rose Hulman Institute of Technology,Electrical & Computer Engineering,https://www.rose-hulman.edu/academics/academic-departments/electrical-computer-engineering/faculty-and-staff.html
+1,,University of Hawaii,Civil and Environmental Engineering,http://www.cee.hawaii.edu/faculty-staff-main/
+1,,University of Utah,Compute Science,http://www.cs.utah.edu/people/faculty/
+1,,Princeton University,Electrical Engineering,http://ee.princeton.edu/people/faculty
+1,,Harvard University,Electrical Engineering,https://www.seas.harvard.edu/electrical-engineering/people
+1,,Depaul University,Computer Science,https://www.cdm.depaul.edu/Faculty-and-Staff/Pages/Faculty.aspx?ftype=soc&selectedareataught=&lastnamefilter=ALL&level=-1
+1,,University of Surrey,Computer Science,https://www.surrey.ac.uk/department-computer-science/people/academic-staff
+1,,California State University Long Beach,Computer Engineering & Computer Science,http://web.csulb.edu/colleges/coe/cecs/faculty/index.shtml
+1,,University of Washington,Electrical Engineering,https://www.ece.uw.edu/faculty/
+1,,University of Washington,Computer Science,https://www.cs.washington.edu/people/faculty
+1,,Florida Atlantic University,Computer & Electrical Engineering & Computer Science,http://www.ceecs.fau.edu/directory/
+1,,American University,Computer Science,https://www.american.edu/cas/cs/faculty.cfm
+1,,Lehigh University,Computer Science & Engineering,https://engineering.lehigh.edu/cse/faculty
+1,,Biola University,Computer Science,https://www.biola.edu/computer-science-bs/faculty
+1,,Vassar College,Computer Science,https://computerscience.vassar.edu/bios/
+1,,University of Michigan,Electrical Engineering and Computer Science,https://www.eecs.umich.edu/eecs/faculty/eecsfaculty.html
+1,,Duke University ,Biological Engineering,https://ece.duke.edu/faculty/computer-engineering
+1,,De Anza College,Computer Information Systems,https://www.deanza.edu/cis/faculty.html
+1,,University of Evansville,Electrical Engineering and Computer Science,https://www.evansville.edu/majors/eecs/faculty.cfm
+1,,Colorado School of Mines,Computer Science,https://cs.mines.edu/faculty-and-staff/
+1,,Computer and Information Science,Computer Science,https://cs.uoregon.edu/people/faculty
+1,,University of Massachusetts Boston,Computer Science,https://www.umb.edu/academics/csm/computer_science/faculty
+1,,Univeristy of Kentucky,Computer Science,http://www.engr.uky.edu/research-faculty/departments/computer-science/people/faculty
+1,,Utah State University,Computer Science,https://cs.usu.edu/people/faculty/index
+1,,Cal Poly,Computer Science and Software Engineering,https://csc.calpoly.edu
+1,,IIT Hyderabad,Computer Science and Engineering,https://cse.iith.ac.in/people/faculty.html
+1,,UC Berkeley,Electrical Engineering,https://www2.eecs.berkeley.edu/Faculty/Lists/EE/faculty.html
+1,,Davidison,Mathematics and Computer Science,https://www.davidson.edu/academics/mathematics-and-computer-science/faculty-and-staff
+1,,University of Kansas,Electrical Engineering and Computer Science,https://eecs.ku.edu/faculty
+1,,Trident University,Computer Science,https://www.trident.edu/why-trident/our-people/faculty/?fc=b-s-computer-science
+1,,City University of Hong Kong,Computer Science,https://www.cs.cityu.edu.hk/people/academic_staff.html
+1,https://minghsiehece.usc.edu/,USC,Electrical and Computer Engineering,https://minghsiehee.usc.edu/directory/faculty/
+1,,Worcester Polytechnic Institute,Computer Science,https://www.wpi.edu/academics/departments/computer-science/faculty-staff
+1,,Swarthmore College,Computer Science,https://www.swarthmore.edu/computer-science/faculty-staff
+1,,Unversity of Liverpool,Computer Science,https://www.liverpool.ac.uk/computer-science/people/
+1,,Illinois State University ,InformationTechnology,https://it.illinoisstate.edu/faculty-staff/
+1,,UT Dallas,Computer Science,https://cs.utdallas.edu/people/faculty/
+1,,University of Montreal,Computer Science,https://en.diro.umontreal.ca/department-directory/professeurs/
+1,,SouthWest University,Computer Science,https://www.southwestern.edu/math-and-computer-science/our-faculty/
+1,,Massachusetts Institute of Technology,Aeronautical Engineering,https://aeroastro.mit.edu/faculty-research/faculty-list
+1,,Cornell University ,Computer Science,https://www.cs.cornell.edu/people/faculty
+1,,Arizona State University,"Electrical, Computer and Energy Engineering",https://ecee.engineering.asu.edu/tenured-and-tenure-track-faculty/
+1,,Middlebury College,Computer Science,http://www.middlebury.edu/academics/cs/faculty
+1,,Texas A&M,Computer Science and Engineering,https://engineering.tamu.edu/cse/profiles/index.html
+1,,Virginia Tech,Computer Science,https://cs.vt.edu/People/Faculty.html
+1,,Wake Forest University,Computer Science,http://college.wfu.edu/cs/people/cs-faculty
+1,,Simon Fraser University,Computer Science,http://www.sfu.ca/computing/people/faculty.html
+1,,Tulane University,Computer Science,https://www2.tulane.edu/sse/cs/faculty/
+1,,University of Tennessee,Computer Science,http://www.eecs.utk.edu/people/faculty/
+1,,Wayne State University,Computer Science,http://engineering.wayne.edu/cs/faculty.php
+1,http://bio.engr.ku.edu/,University of Kansas,Bioengineering,http://bio.engr.ku.edu/people#Core_Faculty
+1,,UC Irvine,Electrical Engineering and Computer Science,http://engineering.uci.edu/directory/dept/eecs
+1,,Northwestern University,Civil and Environmental Engineering,https://www.mccormick.northwestern.edu/civil-environmental/people/faculty/
+1,,West Virginia University ,Computer Science,https://lcsee.statler.wvu.edu/faculty-and-staff
+1,,University of Maine,Computer Science,https://umaine.edu/cs/computer-science-faculty/
+1,,IIT Kanpur,Computer Science,https://www.cse.iitk.ac.in/pages/Faculty.html
+1,,SUNY Buffalo,Computer Science,http://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.html
+1,,California State University East Bay,Computer Science,https://www.csueastbay.edu/cs/faculty-office-hours/faculty-profiles.html
+1,,Carthage College,Computer Science,https://www.carthage.edu/computer-science/faculty/
+1,,Regis University,Computer Science,https://www.regis.edu/CCIS/Academics/Departments-and-Faculty/Computer-Science.aspx
+1,,Unversity of Liverpool,Electrical Enginnering and Electronics,https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/
+1,,Bethel College,Math and Computer Science,https://www.bethel.edu/undergrad/academics/math-cs/faculty
+1,,University College London,Computer Science,http://www.cs.ucl.ac.uk/people/
+1,,Rugster University,Computer Science,https://www.cs.rutgers.edu/people/faculty/professors
+1,,Michigan Technological University,Computer Science,https://www.mtu.edu/cs/department/faculty-staff/
+1,,Gonzaga University,Computer Science,https://www.gonzaga.edu/school-of-engineering-applied-science/degrees-and-programs/computer-science/faculty
+1,,University College London,Electrical Enginnering and Electronics,https://www.ucl.ac.uk/electronic-electrical-engineering/people/academic-staff
+1,https://bioengineering.stanford.edu/,Stanford,Bioengineering,https://bioengineering.stanford.edu/people/faculty
+1,https://semte.engineering.asu.edu/,Arizona State University,"Engineering of Matter, Transport and Energy",https://semte.engineering.asu.edu/faculty/
+1,,University of Illinois at Urbana-Champaign,Chemistry,https://chemistry.illinois.edu/directory/faculty-by-type
+1,,Kansas State University,Computer Science,https://www.cs.ksu.edu/people/faculty/
+1,,Indiana University Bloomington,Computer Science,https://cs.indiana.edu/faculty-directory/index.html?&type=2&aca_dept=1
+1,,Missouri University of Science and Technology,Computer Science,https://cs.mst.edu/faculty-and-staff/faculty-directory/
+1,,Cornell University ,Information Science,https://infosci.cornell.edu/people/faculty
+1,,UNSW Sydney,Computer Science and Engineering,https://www.engineering.unsw.edu.au/computer-science-engineering/academic-profiles/cse-academic-profiles
+1,https://www.eng.mcmaster.ca/cas,"McMaster University, Canada",Computing and Software,https://www.eng.mcmaster.ca/cas/people/faculty
+1,,Rutgers University,Statistics,https://statistics.rutgers.edu/people-pages/faculty
+1,,Viriginia Tech,Mechanical Engineering,http://www.me.vt.edu/people/faculty/
+1,,Purdue University,Engineering,https://engineering.purdue.edu/Engr/People/ptDirectory
+1,https://www.eee.hku.hk/,The University of Hong Kong,Electrical and Electronic Engineering,https://www.eee.hku.hk/people/
+1,https://www.seas.harvard.edu/bioengineering,Harvard University,Bioengineering,https://www.seas.harvard.edu/bioengineering/people
+1,,Cornell University ,Computational Biology,https://compbio.cornell.edu/people/faculty/
+1,,Eastern Illinois University,Engineering,https://www.eiu.edu/engineering/faculty.php
+1,https://www.mcneese.edu/,McNeese State University,Electrical Engineering & Computer Science,https://www.mcneese.edu/sem/eecs/faculty-staff/
+1,,University of Puerto Rico -Mayaguez,Computer Science and Engineering,https://www.uprm.edu/cse/faculty/
+1,,Northern Arizona University,School of Informatics Computing and Cyber Systems,https://nau.edu/school-of-informatics-computing-and-cyber-systems/faculty/
+1,,UMass Lowell,Computer Science,https://www.uml.edu/Sciences/computer-science/faculty/
+1,https://uwaterloo.ca/electrical-computer-engineering/,University of Waterloo,Electrical and Computer Engineering,https://uwaterloo.ca/electrical-computer-engineering/about/people/group/28
+1,,University of Missouri,Information Technology,https://engineering.missouri.edu/academics/it/it-faculty/
+1,,Western Illinois University,Computer Science,http://www.wiu.edu/cbt/computer_science/contact.php
+1,https://www.ece.queensu.ca/index.html,Queen's University,Electrical and Computer Engineering,https://www.ece.queensu.ca/people/faculty.html
+1,,Stanford University,Electrical Engineering,https://ee.stanford.edu/people/faculty
+1,,Louisiana State University,Computer Science & Engineering,https://www.lsu.edu/eng/cse/people/faculty/index.php
+1,,Rutgers University,Electrical & Computer Engineering,https://www.ece.rutgers.edu/fac
+1,https://ece.vt.edu/,Virginia Tech,Electrical and Computer Engineering,https://ece.vt.edu/people/faculty
+1,,California Institute of Technology,Electrical Engineering,http://ee.caltech.edu/people
+1,,University of Hawaii at Manoa,Information and Computer Sciences,http://www.ics.hawaii.edu/people/
+1,,Prudue University,Computer Science,https://www.cs.purdue.edu/people/faculty/index.html
+1,,Northwestern University,Department of Computer Science,https://www.mccormick.northwestern.edu/computer-science/people/faculty.html
+1,,University of Wisconsin-Madison,Department of Genetics,https://genetics.wisc.edu/genetics-faculty/
+1,,Goldsmiths University of London,Computing,https://www.gold.ac.uk/computing/people/
+1,,Truman State University,Computer Science,https://www.truman.edu/majors-programs/majors-minors/computer-science-major/computer-science-faculty-staff/
+1,https://www.law.columbia.edu/,Columbia Law School,Law school,https://www.law.columbia.edu/faculty?role=103
+1,,"UCONN, Connecticut",Computer Science,https://www.cse.uconn.edu/people/faculty/
+1,,Northern Illinois University,Engineering,https://www.niu.edu/ceet/about/faculty-and-instructors/index.shtml
+1,,University Of Utah,Elelectrical & Computer Engineering,https://www.ece.utah.edu/faculty
+1,,FIorida Institute of Technology,Computer Engineering and Sciences,https://www.fit.edu/faculty-profiles/
+1,,Yale University,Electrical Engineering,https://seas.yale.edu/faculty-research/faculty-directory
+1,https://robotics.oregonstate.edu/,Oregon State University,Robotics,https://robotics.oregonstate.edu/faculty
+1,,University of Alberta,Computer Science,https://www.ualberta.ca/computing-science/faculty-and-staff/faculty
+1,,"University of California, Santa Barbara",Electrical & Computer Engineering,https://www.cs.ucsb.edu/people
+1,,University Of Southern California,Biomedical Engineering,https://bme.usc.edu/directory/faculty/
+1,,Carthage College,Computer Science,https://www.carthage.edu/computer-science/faculty/
+1,,University of North Carolina at Chapel Hill,Computer Science,https://cs.unc.edu/people-page/faculty/
+1,https://minghsiehece.usc.edu/,USC Viterbi,Electrical and Computer Engineering,https://minghsiehece.usc.edu/directory/faculty/
+1,,Dartmouth,Computer Science,https://web.cs.dartmouth.edu/people/faculty
+1,,UC Berkeley,Computer Science,https://me.berkeley.edu/faculty/faculty-by-research-area/
+1,,Washington State University,Electrical Engineering and Computer Science,https://school.eecs.wsu.edu/people/faculty/
+1,,"University of California, Los Angeles",Electrical and computer Engineering,https://www.ee.ucla.edu/all-faculty/
+1,,Utah State University,Computer Science,https://cs.usu.edu/people/faculty/index
+1,,"University of California, Irvine",Computer Science,https://www.cs.uci.edu/faculty/
+1,,Saint Francis Xavier University,Computer Science,http://www2.mystfx.ca/computer-science/faculty-staff
+1,,NYU Tandon School of Engineering,Computer Science and Engineering,https://engineering.nyu.edu/academics/departments/computer-science-and-engineering/people
+1,https://cbe.princeton.edu/,Princeton University,Chemical & Biological engineering,https://cbe.princeton.edu/people/faculty
+1,,Oregon State University,Electrical Engineering and Computer Science,https://eecs.oregonstate.edu/people/faculty-directory
+1,,The University of Texas at Austin,"Civil, Architectural and Environmental Engineering",https://www.caee.utexas.edu/faculty/directory
+1,,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIK),Computer Science,https://www.giki.edu.pk/Faculties/FCSEUndergraduate/Profiles
+1,,Clark University,Mathematics and Computer Science,https://www.clarku.edu/departments/mathematics-and-computer-science/our-faculty/
+1,https://www.seas.harvard.edu/applied-mathematics,Harvard,Applied Mathematics,https://www.seas.harvard.edu/applied-mathematics/people
+1,,Northwestern University,Biomedical Engineering,https://www.mccormick.northwestern.edu/biomedical/people/faculty/
+1,,Ryerson University,Graduate Computer Science,https://www.ryerson.ca/science/programs/graduate/computerscience/our-faculty/
+1,,"California Polytechnic State University, San Luis Obispo",Computer Engineering,https://cpe.calpoly.edu/faculty/
+1,,Carnegie Mellon University,Chemical Engineering,https://cmu.edu/cheme/people/faculty/index.html
+1,,UC Merced,Computer Science & Engineering (CSE),https://engineering.ucmerced.edu/soe-bylaw-units/computer-science-engineering-cse
+1,,Johns Hopkins University,Electrical and Computer Engineering,https://engineering.jhu.edu/ece/faculty/
+1,,University of Colorado Colorado Springs,Computer Science,https://www.uccs.edu/cs/about/faculty
+1,,Yale,Computational Biology and Bioinformatics,https://medicine.yale.edu/bbs/computational/people/
+1,,UC Riverside,Computer Science & Engineering (CSE),https://www1.cs.ucr.edu/people/faculty
+1,,The College of New Jersey,Computer Science ,https://computerscience.tcnj.edu/faculty-staff/faculty/
+1,,University of Alaska Anchorage,Computer Science & Engineering (CSE),https://www.uaa.alaska.edu/academics/college-of-engineering/departments/computer-science-and-engineering/contact-us.cshtml
+1,,Texas Tech University,Computer Science,https://www.depts.ttu.edu/cs/faculty/
+1,,UC Davis,Computer Science,https://www.cs.ucdavis.edu/people/faculty/
+1,,University of Idaho,Computer Science,https://www.uidaho.edu/engr/departments/cs/our-people/faculty
+1,,Cornell University,Cornell Tech,"https://tech.cornell.edu/people/faculty/
+"
+1,,University of Richmond,Computer Science,https://cs.richmond.edu/faculty/index.html
+1,,Worcester Polytechnic Institute,Mechanical Engineering,https://www.wpi.edu/academics/departments/mechanical-engineering/faculty-staff
+1,,The University of Texas at San Antonio,Computer Science,
+1,,University of Manchester,Computer Science,https://www.cs.manchester.ac.uk/about/people/academic-and-research-staff/
+1,,University of Wisconsin-Madison,Computer Science,https://www.cs.wisc.edu/people/faculty/
+1,,UMass Amherst,ECE,https://ece.umass.edu/faculty
+1,,George Mason University,Information Sciences and Technology,https://ist.gmu.edu/people/faculty/
+1,,The University of Texas at Austin,Electrical and Computer Engineering,http://www.ece.utexas.edu/people/faculty
+1,,Tel Aviv University,Electrical Engineeringg,https://en-engineering.tau.ac.il/Engineering-Faculty-Home/acstaff
+1,,University of Calgary,Computer Science,http://www.ucalgary.ca/cpsc_info/contact-us
+1,,UC Berkeley,Chemical & Biomolecular Engineering,https://chemistry.berkeley.edu/faculty/cbe
+1,,New York University,Center for Data Science,https://cds.nyu.edu/our-people/faculty/
+1,,Rice University,Computer Science,https://csweb.rice.edu/faculty
+1,,"University of Florida, Gainesville",Statistics,https://stat.ufl.edu/people/faculty/
+1,,The University of Texas at Austin,Mechanical Engineering,http://www.engr.utexas.edu/faculty-directory/departments/me
+1,,"University of Michigan, Ann Arbor",Computer Science & Engineering (CSE),https://cse.engin.umich.edu/people/faculty/
+1,https://orfe.princeton.edu/,Princeton University,Operations Research & Financial Engineering,https://orfe.princeton.edu/people/faculty
+1,https://education.missouri.edu/information-science-learning-technologies/,University of Missouri,Information Science and Educational Technologies,https://sislt.missouri.edu/faculty/
+1,,University of Illinois at Urbana-Champaign,Electrical and Computer Engineering,https://ece.illinois.edu/directory/faculty.asp
+1,,Northwestern University,Chemistry,https://www.chemistry.northwestern.edu/people/core-faculty/
+1,,Carneige Mellon University,Biomedical Engineering,https://www.cmu.edu/bme/People/Faculty/index.html
+1,,University of Washington,Computer Science,https://www.cs.washington.edu/people/faculty
+1,https://math.utsa.edu/,The University of Texas at San Antonio,Mathematics,http://math.utsa.edu/directory/
+1,,Illinois Institute of Technology,Computer Science,https://science.iit.edu/computer-science/people/faculty
+1,,University of Colombo,School of Computing,https://ucsc.cmb.ac.lk/ucsc-staff/academic-staff/
+1,,University of Wyoming,Computer Science,http://www.uwyo.edu/cosc/cosc-directory/
+1,,University of Evansville,Electrical Engineering and Computer Science,https://www.evansville.edu/majors/eecs/faculty.cfm
+1,,Carneige Mellon University,Mechanical Engineering,https://www.meche.engineering.cmu.edu/directory/index.html
+1,,Auburn,Computer Science and Software Engineering,https://www.eng.auburn.edu/comp/faculty/
+1,,University of St. Thomas,Computer and Information Sciences,https://www.stthomas.edu/cisc/faculty/
+1,,University of Missouri,Mathematics,https://www.math.missouri.edu/faculty
+1,,Harvard University,Computer Science,https://www.seas.harvard.edu/computer-science/people
+1,,"University of California, Berkeley",Civil and Environmental Engineering,https://www.ce.berkeley.edu/people/faculty
+1,,"Indian Institute of Technology, Guwahati",Compute Science and Engineering,http://www.iitg.ac.in/cse/csefaculty
+1,,University of Waterloo,Statistics and Actuarial Science,https://uwaterloo.ca/statistics-and-actuarial-science/about/people/group/47
+1,,University of Alberta,Computer Engineering,https://www.ualberta.ca/electrical-computer-engineering/faculty-and-staff
+1,,National University of Singapore,Information Systems and Analytics,https://www.comp.nus.edu.sg/about/depts/disa/faculty/
+1,,Carnegie Ｍellon University,Information systems and management,https://www.heinz.cmu.edu/faculty-research/profiles/
+1,,Colorado State University,Department of Statistics,https://statistics.colostate.edu/faculty-staff/
+1,,IIT Kanpur,Computer Science and Engineering,https://www.cse.iitk.ac.in/pages/Faculty.html
+1,,Bradley University,Electrical & Computer Engineering,https://www.bradley.edu/academic/departments/ece/faculty/
+1,,Dartmouth College,Engineering,https://engineering.dartmouth.edu/people/faculty/core
+1,,University of North Texas,COMPUTER SCIENCE AND ENGINEERING,https://computerscience.engineering.unt.edu/people/faculty
+1,https://aero.engin.umich.edu/,University of Michigan,Aerospace Engineering,https://aero.engin.umich.edu/role/faculty/
+1,https://haas.berkeley.edu/,UC Berkeley,Haas School of Business,https://haas.berkeley.edu/faculty/
+1,,Northwestern University,Electrical and Computer Engineering,https://www.mccormick.northwestern.edu/electrical-computer/people/faculty.html
+1,,George W Woodruff School of Mechanical Engineering,Mechanical Engineering,http://www.me.gatech.edu/faculty
+1,,University of North Carolina at Charlotte,College of Computing and Informatics,https://cci.uncc.edu/directory/cs/faculty
+1,https://mae.princeton.edu/,Princeton University,Mechanical and Aerospace Engineering,https://mae.princeton.edu/people/faculty
+1,,"University of Nevada, Las Vegas",Department of Computer Science,https://www.unlv.edu/cs/directory?all
+1,,Amherst College,Department of Computer Science,https://www.amherst.edu/academiclife/departments/computer_science/faculty
+1,,University of Virginia,Chemistry,https://chemistry.as.virginia.edu/faculty
+1,,Saint Mary's College,Mathematics and Computer Science,https://www.saintmarys.edu/academics/departments/mathematics-computer-science/faculty
+1,,"University of Michigan, Ann Arbor", Electrical and Computer Engineering (ESE),https://ece.engin.umich.edu/people/faculty/
+1,https://www.usfca.edu/arts-sciences,University of San Francisco,Data Science,https://www.usfca.edu/arts-sciences/graduate-programs/data-science/faculty
+1,,College of Dupage,All,https://www.cod.edu/faculty/
+1,http://www.gps.caltech.edu/,California Institute of Technology,"Geological
+and Planetary Sciences",http://www.gps.caltech.edu/people?cat_one=Professorial%20Faculty&cat_two=all
+1,,University of Alabama,Electrical and Computer Engineering,http://ece.eng.ua.edu/people/
+1,,The University of Texas at Austin,Mechanical Engineering,http://www.engr.utexas.edu/faculty-directory/departments/me
+1,,University of Utah,Chemical Engineering,https://www.che.utah.edu/department/people/faculty
+1,https://philosophy.uchicago.edu/,University of Chicago,Philosophy,https://philosophy.uchicago.edu/people/profiles
+1,,University of Washington,Electrical Engineering,https://www.ece.uw.edu/faculty/
+1,,University of Tennessee,Computer Science,http://www.eecs.utk.edu/people/faculty/
+1,,Stanford University,Mechanical Engineering,https://me.stanford.edu/people/faculty/
+1,,Wake Forest University,Mathematics,https://math.wfu.edu/people-faculty
+1,,Hunter College,Computer Science,http://www.hunter.cuny.edu/csci/people/faculty
+1,,IIT BHU,All,https://www.iitbhu.ac.in/all/faculty
+1,,University of Texas Rio Grande Valley,Computer Science,https://www.utrgv.edu/csci/faculty/index.htm
+1,,University of Maryland ,Engineering ,https://eng.umd.edu/clark/facultydir
+1,,San Francisco State University,Chemistry and Biochemistry,http://chembiochem.sfsu.edu/faculty/0layout.php
+1,,University of North Carolina at Chapel Hill,Lineberger Comprehensive Cancer Center,https://unclineberger.org/members/'
+1,,Purdue University,Civil Engineering,https://engineering.purdue.edu/CE/People/Faculty
+1,,NYU Tandon School of Engineering,Electrical and Computer Engineering,https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering/people
+1,,Stanford University,Chemical Engineering,https://cheme.stanford.edu/people/faculty
+1,,Ohio State University,Electrical and Computer Engineering,https://ece.osu.edu/directory/categories/type/faculty
+1,,Trinity University (San Antonio),Computer Science,https://new.trinity.edu/academics/departments/computer-science/meet-faculty
+1,,"University of California, Irvine",Mechanical and Aerospace Engineering,http://engineering.uci.edu/dept/mae/faculty-staff/faculty
+1,,Stony Brook University,Electrical & Computer Engineering,https://www.stonybrook.edu/commcms/electrical/people/-core_faculty/
+1,,Illinois State University,Technology,https://tec.illinoisstate.edu/faculty-staff/
+1,,McGill University,Chemical Engineering,https://mcgill.ca/chemeng/people
+1,,UCLA,Law School,https://law.ucla.edu/faculty/faculty-profiles/
+1,,Univeristy of Peradeniya,Department of Computer Engineering,http://www.ce.pdn.ac.lk/academic-staff/#1559034718450-064c648f-6799
+1,,Michigan State University,Computer Science and Engineering,http://www.cse.msu.edu/People/
+1,https://physics.berkeley.edu/,UC Berkeley,Nuclear Physics,https://physics.berkeley.edu/research-faculty/nuclear-physics
+1,,Columbia University,Chemical Engineering,https://cheme.columbia.edu/directory?gsarqfields%5Bbiotypetid%5D=30
+1,,Middle Tennessee State University,Computer Science,https://www.mtsu.edu/csc/faculty.php
+1,,University of Findlay,Computer Science,https://www.findlay.edu/sciences/computer-science/Meet-Our-Faculty-and-Staff
+1,,Virginia Commonwealth University,Computer Science,https://egr.vcu.edu/departments/computer/people/faculty/
+1,,Swinburne university of technology,Computer Science and Software Engineering,https://www.swinburne.edu.au/science-engineering-technology/schools-departments/software-electrical-engineering/computer-science-software-engineering/staff/
+1,,Stanford University,Computer Science ,https://cs.stanford.edu/directory/faculty
+1,,George Washington University,School of business,https://business.gwu.edu/staff-directory
+1,,University of Glasgow,School of Computing Science,https://www.gla.ac.uk/schools/computing/staff/
+1,,"University of Florida, Gainesville",Electrical & Computer Engineering,https://www.ece.ufl.edu/people/faculty/
+1,,North Carolina State University,Electrical & Computer Engineering,https://www.ece.ncsu.edu/faculty/
+1,,Chicago Booth School,Management,https://www.chicagobooth.edu/executiveeducation/about-us/faculty
+1,,Lehigh University,Civil Engineering,https://engineering.lehigh.edu/cee/faculty
+1,,Virginia Tech,Mathematics,https://www.math.vt.edu/people/faculty.html
+1,,Rice University,Electrical and Computer Engineering,https://eceweb.rice.edu/people/faculty
+1,,The Hong Kong Polytechnic University,Computing,https://www.comp.polyu.edu.hk/en-us/staffs/index/1
+1,,Miami University,Computer Science,https://miamioh.edu/cec/academics/departments/cse/about/faculty-and-staff/index.html
+1,,Gonzaga University,Biology,https://www.gonzaga.edu/college-of-arts-sciences/departments/biology/faculty
+1,,University of Illinois at Urbana-Champaign,Physics,https://physics.illinois.edu/people/directory/
+1,,Hofstra University,Computer Science,https://www.hofstra.edu/academics/colleges/seas/computer-science/computer-science-faculty.html
+1,,Louisiana Tech University,Computer Science,https://coes.latech.edu/facultystaff-directory
+1,,University of South Florida,Computer Science and Engineering,https://www.usf.edu/engineering/cse/people/index.aspx
+1,,Eastern Connecticut State University,Computer Science,http://www.easternct.edu/computerscience/faculty/
+1,,University of Virginia,School of Business,https://www.darden.virginia.edu/faculty-research/directory
+1,,Santa Clara University,Mathematics and Computer Science,https://www.scu.edu/mathcs/faculty-and-staff/
+1,https://www.rhsmith.umd.edu/,"University of Maryland, College Park",Business,https://www.rhsmith.umd.edu/directory/faculty
+1,https://food-science.uark.edu/directory/index.php,University of Arkansas,Food Science,https://food-science.uark.edu/people/faculty.php
+1,,Simon Fraser University,School of Engineering,http://www.sfu.ca/engineering/faculty-and-staff/faculty.html
+1,,University of British Columbia,Electrical and Computer Engineering,https://www.ece.ubc.ca/faculty
+1,,University of Texas at Austin,Biomedical Engineering,http://www.engr.utexas.edu/faculty-directory/departments/bme
+1,,Mechan,Computer Science,https://www.bitmesra.ac.in/Show_Faculty_List?cid=1&deptid=70
+1,,"Visvesvaraya National Institue of Technology,Nagpur,India ",Computer Science and Engineering,http://vnit.ac.in/cse/faculty/
+1,,"Rutgers Department of Computer Science, New Jersey",Computer Science,https://www.cs.rutgers.edu/people/faculty/
+1,,University of Akron,Computer Science,https://www.uakron.edu/computer-science/faculty-staff/
+1,,Monmouth University,Computer Science,https://www.monmouth.edu/department-of-csse/faculty-and-staff/
+1,,University of Washington,Biochemistry,https://depts.washington.edu/biowww/pages/faculty.shtml
+1,https://economics.virginia.edu/,University of Virginia,Economics,https://economics.virginia.edu/faculty
+1,,University of Wisconsin - Madison,Mechanical Engineering,https://directory.engr.wisc.edu/display.php/faculty?page=me&search=faculty
+1,,Massachusetts Institute of Technology,Physics,http://web.mit.edu/physics/people/faculty/index.html
+1,,Penn State University,Physics,http://www.phys.psu.edu/people/faculty
+1,,Stanford University,Aeronautics and Astronautics Engineering,https://aa.stanford.edu/people/faculty/grid
+1,,New Jersey Institue of Techology,Computer Science,https://cs.njit.edu/people
+1,,University of New Mexico,Computer Science,https://www.cs.unm.edu/directory/index.html
+1,,Western Michigan University,Computer Science,https://wmich.edu/cs/directory/faculty
+1,,Bradley University,Chemistry and Biochemistry,https://www.bradley.edu/academic/departments/chm/faculty/
+1,,"University of California, Berkeley",Mechanical Engineering,
+1,,MIT,Computer Science & Artificial Intelligence Lab,https://www.csail.mit.edu/people
+1,https://ansc.illinois.edu/,University of Illinois at Urbana-Champaign,Animal Sciences,https://ansc.illinois.edu/directory/faculty
+1,,Washington University in St. Louis,"Energy, Environmental and Chemical Engineering",https://eece.wustl.edu/faculty/Pages/default.aspx
+1,,Bob Jones University,Computer Science,https://www.bju.edu/academics/faculty/bydepartment.php?id=1136
+1,,MIT,Mathematics,https://math.mit.edu/directory/faculty/index.php
+1,,The Univesity of Texas at Dallas,Physics,https://www.utdallas.edu/physics/faculty/
+1,,Duke University,Physics,https://phy.duke.edu/people/faculty
+1,,Texas State University ,computer science,https://cs.txstate.edu/accounts/faculty/
+1,,University of Waterloo,Mechanical and Mechatronics Engineering,https://uwaterloo.ca/mechanical-mechatronics-engineering/about/people/group/117
+1,,Villanova University,Computer Science,http://csc.villanova.edu/aboutUs/faculty
+1,,Illinois Wesleyan,Computer Science,https://www.iwu.edu/computer-science/faculty/
+1,,University of Washington,Information School,https://ischool.uw.edu/people/faculty
+1,,Georgia Tech,Chemical and Biomolecular Engineering,http://www.chbe.gatech.edu/people
+1,,University of California San Diego,Physics,https://physics.ucsd.edu/Directory#filter=.faculty%3Anot(.hidden)
+1,,Hampton University,Computer Science,https://science.hamptonu.edu/compsci/faculty/index.cfm
+1,,"University of Florida, Gainesville",Industrial and Systems Engineering,https://www.ise.ufl.edu/people/faculty10/ise-faculty/
+1,,Baylor University,School of Engineering and Computer Science,https://www.ecs.baylor.edu/index.php?id=961249
+1,,Middlebury College,Chemistry,http://www.middlebury.edu/academics/chem/faculty
+1,,University of Georgia,Computer Science,https://www.cs.uga.edu/faculty-directory
+1,,The Pennsylvania State University,,https://math.psu.edu/people/3
+1,,Stanford University,Materials Science and Engineering,https://mse.stanford.edu/people/faculty
+1,,McMaster University,Electrical and computer Engineering,https://www.eng.mcmaster.ca/ece/people/faculty
+1,,Drexel University,Computer Science,https://drexel.edu/cci/academics/computer-science-department/faculty/
+1,,University of Indianapolis,College of art and Sciences,http://www.uindy.edu/cas/engineering/faculty
+1,,University of Toronto,Statistical Sciences,https://www.statistics.utoronto.ca/
+1,,UC Berkeley,Industrial Engineering and Operations Research,https://ieor.berkeley.edu/faculty/
+1,,University of Toronto,Chemistry,https://www.chemistry.utoronto.ca/people/directories/all-faculty
+1,,"University of California, Los Angeles",Civil and Environmental Engineering,https://samueli.ucla.edu/search-faculty/#cee
+1,,Portland State University,Electrical and Computer Engineering,https://www.pdx.edu/ece/ece-faculty
+1,https://www.apam.columbia.edu/,Columbia University,Applied Physics and Applied Mathematics,https://www.apam.columbia.edu/directory?gsarqfields%5Bbiotypetid%5D=30
+1,,University of North Texas,mechanical and energy,https://mechanicalandenergy.engineering.unt.edu/faculty
+1,,Washington State University,Mathematics and Statistics,http://www.math.wsu.edu/faculty/welcomebytitle.php
+1,,Stony Brook University,Mechanical Engineering,https://me.stonybrook.edu/people/index.php#FullTime
+1,,"University Of Nebraska, Omaha",College of Information Science and Technology,https://www.unomaha.edu/college-of-information-science-and-technology/about/faculty-staff/index.php
+1,,"University of Nevada, Reno",Computer Science and Engineering,https://www.unr.edu/cse/people
+1,,Stanford University,Management Science and Engineering,https://msande.stanford.edu/people/faculty/grid
+1,,University of Massachusetts Amherst,Mechanical and Industrial Engineering,http://mie.umass.edu/faculty
+1,,Texas A&M University,Chemical Engineering,https://engineering.tamu.edu/chemical/index.html
+1,,University of La Verne,Computer Science and Computer Engineering ,https://artsci.laverne.edu/compsci/faculty/
+1,,Arizona State University,"Engineering of Matter, Transport and Energy",https://semte.engineering.asu.edu/faculty/
+1,,SUNY Binghamton,Computer Science,https://www.binghamton.edu/computer-science/contact/faculty.html
+1,,University of Calgary,Electrical & Computer Engineering,https://schulich.ucalgary.ca/electrical-computer/faculty-members
+1,,University of San Diego,Computer Science,https://www.sandiego.edu/engineering/programs/computer-science/faculty.php?name_search=&name_search_option=Any&relevancy=contains&sort=&list_view_type=box-view&filter_type=office-department-group&show_image=Yes&details_button=show-details-button&department_filter_type=0&row_limit=24&division_id=NaN&office_department_id=NaN&sub_department_id=160&sub_unit_id=NaN&group_id=5%2C6%2C7%2C8%2C10&scroll=true&filter_action=clicks
+1,,University of Illinois at Chicago,Chemistry,https://chem.uic.edu/people/faculty/
+1,,University of California San Diego,DIVISION OF BIOLOGICAL SCIENCES,https://biology.ucsd.edu/publicinfo/dwc?action=faculty_research_list
+1,,Brigham Young University - Idaho,Computer Science and Electrical Engineering,http://www.byui.edu/computer-science-electrical-engineering/our-faculty
+1,,Northern Illinois University,Department of Computer Science,http://www.cs.niu.edu/faculty/index.shtml
+1,,Syracuse University,School of Information Studies,https://ischool.syr.edu/people/directories/faculty/
+1,,Williams College,Computer Science,https://csci.williams.edu/people/faculty/
+1,,University of Illinois at Chicago,Mechanical and Industrial Engineering,https://mie.uic.edu/faculty-and-staff/faculty/
+1,,San Jose State University,Computer Engineering,https://cmpe.sjsu.edu/faculty-staff
+1,,JNTU University,Computer Science & Engineering,https://jntuhceh.ac.in/faculty/5/dept/5
+1,https://michiganross.umich.edu/,University of Michigan,Ross School of Business,https://michiganross.umich.edu/faculty-research/directory?last=All
+1,,UC Berkeley,CONDENSED MATTER PHYSICS AND MATERIALS SCIENCE,https://physics.berkeley.edu/research/condensed-matter-physics-and-materials-science
+1,,UC Berkeley,School of Information,https://www.ischool.berkeley.edu/people?role=122
+1,https://psychology.uoregon.edu/,University of Oregon,Psychology,https://psychology.uoregon.edu/profiles/professors
+1,,Clarkson University,Computer Science,https://www.clarkson.edu/academics/arts-sciences/computer-science/faculty-staff
+1,,Georgia Tech,Industrial Engineering,https://www.isye.gatech.edu/academics/bachelors/industrial-engineering/faculty
+1,,University of Iowa,Engineering,https://www.engineering.uiowa.edu/faculty-staff-directory
+1,,University of British Columbia,Civil Engineering,https://www.civil.ubc.ca/people/faculty
+1,,MTU,computer science,https://www.mtu.edu/cs/department/faculty-staff/
+1,,University of Colorado at Colorado Springs,Electrical and Computer Engineering,https://www.UCCS.edu/ece/staff/ece-faculty
+1,,"Indian Institute of Technology Madras, Chennai, India.","Indian Institute of Technology Madras, Chennai, India.",http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw
+1,,Rensselaer Polytechnic Institute,"Electrical, Computer, and Systems Engineering",https://www.ecse.rpi.edu/people
+1,,Macalester College,"Mathematics, Statistics, and Computer Science",https://www.macalester.edu/mscs/facultystaff/
+1,,UC Berkeley,AstroPhysics,https://physics.berkeley.edu/research/astrophysics
+1,,Univesity of Illinois - Chicago,Physics,https://phys.uic.edu/people/facultydirectory/
+1,,University of British Columbia,Eletrical and Computer Engineering,https://www.ece.ubc.ca/faculty
+1,,Mississippi State University,Computer Science and Engineering,http://www.cse.msstate.edu/people/faculty/
+1,,McMaster University,Engineering Physics,https://www.eng.mcmaster.ca/engphys/people/faculty
+1,,University of Delaware,Computer Science & Information Sciences,
+1,,UC Davis,Electrical and Computer Engineering,https://www.ece.ucdavis.edu/people/faculty
+1,,Duke University,"Signal and Information Processing, Eletrical and Computer Engineering",https://ece.duke.edu/faculty/signal-information-processing
+1,,"Birla Institute of Technology, Mesra",Architecture,https://bitmesra.ac.in/Show_Faculty_List?cid=1&deptid=49
+1,,Arizona State University,Mathematical and Statistical Sciences,https://math.asu.edu/people/faculty
+1,,University of Wisconsin - Madison,Business School,https://wsb.wisc.edu/faculty-research/named-chairs-and-professorships
+1,,Stanford University,Statistics,https://statistics.stanford.edu/people/faculty
+1,,IIT Delhi,Computer Science and Engineering ,https://www.cse.iitd.ernet.in/index.php/2011-12-29-23-14-30/faculty
+1,,Worcester Polytechnic Institute,Computer Science,https://www.wpi.edu/academics/departments/computer-science/faculty-staff
+1,,Michigan Technological University,Computer Science,https://www.mtu.edu/cs/department/faculty-staff/
+1,,University of Illinois at Urbana-Champaign,Civil and Environmental Engineering,https://cee.illinois.edu/directory/faculty
+1,,UC Irvine,Social Ecology,https://socialecology.uci.edu/faculty
+1,,Texas Christian University,Computer Science,https://computerscience.tcu.edu/staff/
+1,,University of Illinois at Urbana-Champaign,Aerospace Engineering,http://aerospace.illinois.edu/directory/faculty
+1,,University of Georgia,College of Engineering,http://www.engineering.uga.edu
+1,,Harvard University,Department of Chemistry and Chemical Biology,https://chemistry.harvard.edu/faculty
+1,,Johns Hopkins University,Department of Mechanical Engineering,https://me.jhu.edu/faculty/
+1,,University of Cambridge,Electrical Engineering,http://www.eng.cam.ac.uk/people/division/124
+1,,"Indraprastha Institute of Information Technology, Delhi",Computer Science,https://www.iiitd.ac.in/people/faculty
+1,,University of Toronto,Department of Mathematics,https://www.math.toronto.edu/cms/people/
+1,,Temple University,Electrical and Computer Engineering,https://engineering.temple.edu/about/faculty-staff/electrical-and-computer-engineering
+1,,St. Olaf College,Computer Science,https://wp.stolaf.edu/cs/faculty-staff/
+1,,University of Central Missouri,Computer Science,https://www.ucmo.edu/college-of-health-science-and-technology/school-of-computer-science-and-mathematics/computer-science-and-software-engineering/faculty/index.php
+1,,Montana Tech,Computer Science,https://cs.mtech.edu/faculty-staff/
+1,,University of Colorado at Boulder,Physics,https://www.colorado.edu/physics/people/faculty
+1,,UC Berkeley,Electrical Engineering and Computer Sciences,https://www2.eecs.berkeley.edu/Faculty/Lists/list.html
+1,https://mse.utdallas.edu/,University of Texas at Dallas,Materials Science and Engineering,https://mse.utdallas.edu/ourteam/faculty/
+1,,Princeton University,Physics,https://phy.princeton.edu/directory/faculty
+1,,University of Utah,Mechanical Engineering,https://mech.utah.edu/faculty
+1,,University of New Mexico,Civil Construction and Environmental Engineering,http://civil.unm.edu/faculty-staff/faculty-profiles/index.html
+1,,The University of Kansas,Engineering Physics,http://physics.engr.ku.edu/faculty-staff
+1,,Manipal Institute of Technology,Computer Science,https://manipal.edu/mit/department-faculty/faculty-list.html?filterDepartment=computer-science-and-engineering
+1,,University of Southern California,Chemical Engineering & Material Sciences,https://chems.usc.edu/directory/faculty/
+1,,UCLA University,Math ,https://www.math.ucla.edu/people/ladder/
+1,,University of Vermont,Department of Computer Science,https://www.uvm.edu/cems/cs/faculty_staff
+1,,"Concordia University (Montreal, Canada)",Department of Computer Science and Software Engineering,https://www.concordia.ca/ginacody/computer-science-software-eng/about/faculty-members.html
+1,,San Jose State University,Engineering,https://ee.sjsu.edu/content/full-time-faculty
+1,,Boston Unviversity,Research,https://www.bu.edu/questrom/faculty-research/faculty-directory/
+1,,National University Of Singapore,Business - Finace,https://bizfaculty.nus.edu.sg/faculty-profiles/?departmentId=3
+1,,Cornell University,Entomology,https://entomology.cals.cornell.edu/people/faculty-and-senior-academic-staff/
+1,,MIT,Statistics and Data Science ,https://stat.mit.edu/people/
+1,,The University of Kansas,Aerospace Engineering,http://ae.engr.ku.edu/ae-faculty
+1,https://myusf.usfca.edu/marketing-communications,University Of Sanfrancisco,Marketing Communication,https://myusf.usfca.edu/marketing-communications/our-team
+1,,Yale University,Computer Science,https://cpsc.yale.edu/people/faculty
+1,,Stanford University,Graduate School of Business,https://www.gsb.stanford.edu/faculty-research/faculty
+1,,"Indian Institute of Technology(ISM) Dhanbad, India",Computer Science & Engineering,https://iitism.irins.org/faculty/index/Department+of+Computer+Science+and+Engineering
+1,,Carnegie Mellon University,Material Science and Engineering,https://www.cmu.edu/engineering/materials/people/faculty/index.html
+1,,akashk5,Mechanicla and Aerospace Engineering,https://engineering.virginia.edu/departments/mechanical-and-aerospace-engineering
+1,,Unversity of Washington,Biomedical Informatics and Medical Education,http://bime.uw.edu/faculty/
+1,,Carnegie Mellon University,The Robotics Institute,https://www.ri.cmu.edu/people/faculty/
+1,,University of Rochester,Department of Physics and Astronomy,https://www.pas.rochester.edu/people/faculty/index.html
+1,,Loyola University Chicago,Computer Science,https://www.luc.edu/cs/people/ftfaculty/
+1,,Rice University,Department of Bioengineering,https://bioengineering.rice.edu/people
+1,,Michigan Technological University,Biomedical Engineering,https://www.mtu.edu/biomedical/people/faculty/
+1,,Olin College of Engineering,Engineering,https://www.olin.edu/faculty/profiles/full-time/
+1,,University of Illinois at Chicago,Biological Sciences,https://bios.uic.edu/people/faculty/
+1,,Syracuse University,Mechanical And Aerospace Engineering,https://eng-cs.syr.edu/our-departments/mechanical-and-aerospace-engineering/people/faculty/
+1,,UC Santa Cruz,Biomolecular Engineering,https://www.soe.ucsc.edu/departments/biomolecular-engineering/people/faculty
+1,,"University of Minnesota, Minneapolis",Chemical Engineering,cems.umn.edu/people/faculty/
+1,https://www.biology.washington.edu/node,University of Washington,Biology,https://www.biology.washington.edu/people/faculty
+1,,UC Berkeley,Bioengineering,https://bioeng.berkeley.edu/people
+1,,Carnegie Mellon University,Tepper School of Business,https://www.cmu.edu/tepper/faculty-and-research/faculty-profiles.html
+1,,MIT,Nuclear Science & Engineering,http://web.mit.edu/nse/people/index.html
+1,,Northwestern University,Industrial Engineering and Management Sciences,https://www.mccormick.northwestern.edu/industrial/people/faculty/
+1,,Colorado State University,Electrical and Computer Engineering,https://www.engr.colostate.edu/ece/facultystaff/faculty.php
+1,,Univeristy of Rochester,Department of Mathematics,http://www.sas.rochester.edu/mth/people/faculty/index.html
+1,,Rochester Institute of Technology,Computer Science MS,https://www.rit.edu/program-directory?program=6219366
+1,,Seoul National University,Computer Science and Engineering,https://cse.snu.ac.kr/en/people/faculty
+1,,Columbia University,Department of Statistics,http://stat.columbia.edu/department-directory/faculty-and-lecturers/
+1,,Oregon State University,Statistics,Statistics
+1,,Technion (Israel Institute of Technology),Faculty of Computer Science,http://www.cs.technion.ac.il/people/faculty/
+1,,Cornell University,School of Biomedical Engineering,https://www.bme.cornell.edu/bme/faculty-directory
+1,,Vassar College,Mathematics,https://math.vassar.edu/bios/
+1,,California State University San Marcos,Computer Science,https://www.csusm.edu/cs/about/facstaff.html
+1,,University of Washington Bothell,Computing & Software Systems,https://www.uwb.edu/css/faculty
+1,,Texas A&M University,Computer Science and Electrical Engineering,https://engineering.tamu.edu/cse/profiles/index.html#Faculty
+1,,University of Louisville ,Computer Science and Electrical Engineering,https://engineering.louisville.edu/academics/faculty/?cat=14&filters=28
+1,,McMaster University,Civil Engineering,https://www.eng.mcmaster.ca/civil/people/faculty
+1,,Queen's University,Chemical Engineering,https://chemeng.queensu.ca/people/Faculty/index.html
+1,,California Institute of Technology,Physics,https://pma.caltech.edu/people?cat_one=Professorial%20Faculty&cat_two=Physics
+1,,Carnegie Mellon University,Master of Computational Data Science,https://mcds.cs.cmu.edu/directory/all/154/1
+1,,ETH Zürich,Computer Science Professors,https://inf.ethz.ch/people/faculty/faculty.html
+1,,Texas A&M University,Civil,https://engineering.tamu.edu/civil/profiles/index.html#Faculty
+1,,Indiana University Bloomington,Department of Psychological & Brain Sciences,https://psych.indiana.edu/directory/faculty/index.html
+1,,MIT,Sloan School of Management,https://mitsloan.mit.edu/faculty/faculty-directory
+1,,Wharton / University of Pennsylvania,Statistics Department,https://statistics.wharton.upenn.edu/faculty/faculty-list/
+1,,University of Michigan,Mechanical Engineering,https://me.engin.umich.edu/people/faculty
+1,,The Chinese University of Hong Kong,Computer Science,https://www.cse.cuhk.edu.hk/en/people/faculty/by-profile
+1,,Cal State Los Angeles,Computer Science,https://www.calstatela.edu/ecst/cs/faculty
+1,,California Institute of Technology,Mechanical and Civil Engineering,https://mce.caltech.edu/people
+1,,"University of California, Santa Barbara",Department of Chemical Engineering,https://www.chemengr.ucsb.edu/people/directory
+1,,The University of Texas at Austin,Aerospace Engineering and Engineering Mechanics,https://www.ae.utexas.edu/people/faculty
+1,,New York University,Biomedical Engineering,https://engineering.nyu.edu/academics/departments/biomedical-engineering/faculty
+1,,"University of California, Santa Cruz",Electrical and Computer Engineering,https://www.soe.ucsc.edu/departments/electrical-computer-engineering/people/faculty
+1,,,Department of Chemical Engineering,https://cheme.mit.edu/people/faculty/
+1,,MIT,Mechanical Engineering,https://meche.mit.edu/people?
+1,,South Dakota State University,Computer Science and Electrical Engineering,https://www.sdstate.edu/electrical-engineering-and-computer-science/directory
+1,,University of Minnesota,Electrical and Computer Engineering,https://ece.umn.edu/directory/
+1,,Cornell University,Applied and Engineering Physics,https://www.aep.cornell.edu/aep/faculty-directory
+1,,Johns Hopkins University,Applied Mathematics and Statistics,https://engineering.jhu.edu/ams/faculty/
+1,,University of Wisconsin - Madison,Department of Mathematics,https://www.math.wisc.edu/people/faculty-directory
+1,,Boston University,School of Law,https://www.bu.edu/law/faculty-scholarship/faculty-profiles/
+1,,MIT,"Earth, Atmosphere & Planetary Science",https://eapsweb.mit.edu/people/faculty-and-senior-researchers
+1,,University of Illinois at Urbana-Champaign,Chemical and Biomolecular Engineering,https://chbe.illinois.edu/directory/
+1,,Santa Clara University,Computer Science and Engineering,https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/faculty--staff/
+1,,Cornell University ,Statistics and Data Science ,https://stat.cornell.edu/people/faculty
+1,,Western Washington University,Computer Science,https://cs.wwu.edu/faculty
+1,,University of Washington,Computer Science,https://www.engr.washington.edu/facultyfinder
+1,,Borough of Manhattan Community College,Computer Science,https://www.bmcc.cuny.edu/academics/departments/cis/faculty/
+1,,University of Toledo,Electrical Engineering and Computer Science,https://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/faculty.html
+1,,Tufts University,Department of Electrical and Computer Engineering,https://engineering.tufts.edu/ece/people/faculty
+1,,University of Southern California,Civil and Environmental Engineering,https://cee.usc.edu/directory/faculty/
+1,http://www.cogsci.ucsd.edu/index.html,University of California San Diego,Cognitive Science,http://www.cogsci.ucsd.edu/people/faculty/index.html
+1,,Rutgers University,Biomedical Engineering,https://bme.rutgers.edu/faculty
+1,,Rose-Hulman Institute of Technology,Biology and Biomedical Engineering,https://www.rose-hulman.edu/academics/academic-departments/biology-and-biomedical-engineering/faculty-and-staff.html
+1,,Stanford University,Mathematics,https://mathematics.stanford.edu/people/faculty-lecturers
+1,,Arizona State University,Physics,https://physics.asu.edu/content/faculty
+1,,Southern Methodist University, Electrical and Computer Engineering,https://www.smu.edu/Lyle/Academics/Departments/ECE/People
+1,,University of Cincinnati,Aerospace Engineering & Engineering Mechanics,https://ceas.uc.edu/academics/departments/aerospace-engineering-mechanics/people.html
+1,,University of New Hampshire,Computer Science,https://ceps.unh.edu/computer-science/faculty-staff-directory
+1,,University of Waterloo,Civil and Environment Engineering,https://uwaterloo.ca/civil-environmental-engineering/about/people/group/44
+1,,The University of Rhode Island,Computer Science and Statistics,https://web.uri.edu/cs/people/
+1,,University of Washington,Informatics,https://ischool.uw.edu/people/faculty
+1,,UC San Diego,UC San Diego,http://www.ece.ucsd.edu/people/faculty
+1,,Cornell University,Mathematics,https://math.cornell.edu/faculty
+1,,University of Waterloo,Physics and Astronomy,https://uwaterloo.ca/physics-astronomy/people-profiles/category/23
+1,https://astro.illinois.edu/,University of Illinois at Urbana-Champaign,Astronomy,https://astro.illinois.edu/directory/faculty
+1,,Northwestern University,Chemical and Biological Engineering,https://www.mccormick.northwestern.edu/chemical-biological/people/faculty/
+1,,University of Michigan,Biomedical Engineering,https://bme.umich.edu/people/
+1,,"Birla Institute of Technology and Sciences, Pilani",Mechanical Engineering,https://www.bits-pilani.ac.in/pilani/pilaniMechanicalEngineering/Faculty
+1,,California State University Long Beach,Mechanical & Aerospace Engineering,https://web.csulb.edu/colleges/coe/mae/faculty/index.shtml
+1,,The Hong Kong University of Science and Technology ,"Information Systems, Business Statistics and Operations Management",https://www.bm.ust.hk/isom/faculty-and-staff/directory
+1,,Texas A&M University,Statistics,https://www.stat.tamu.edu/people/#faculty-all
+1,,Vanderbilt University,Biomedical Engineering,https://engineering.vanderbilt.edu/bme/facultystaff/index.php
+1,,University of Colorado at Boulder,Department of Classics,https://www.colorado.edu/classics/faculty
+1,,University of Utah,Department of Chemistry,https://chem.utah.edu/directory/faculty.php
+1,,University of Washington Tacoma,Engineering & Technology,http://directory.tacoma.uw.edu/node/10
+1,,University of Florida,Animal Sciences,https://animal.ifas.ufl.edu/people/
+1,,Thompson Rivers University,Computer Science,https://www.tru.ca/science/programs/compsci/people
+1,,Clemson University,Mechanical Engineering,https://www.clemson.edu/cecas/departments/me/people/faculty/index.html
+1,,Monash University,Electrical and Computer Systems Engineering,https://www.monash.edu/engineering/departments/ecse/about-us/our-people
+1,,MIT,Chemistry,https://chemistry.mit.edu/faculty/
+1,https://csh.depaul.edu/Pages/default.aspx,Depaul University ,Psychology,https://csh.depaul.edu/academics/psychology/faculty-staff/Pages/default.aspx
+1,,Texas Tech University,Electrical & Computer Engineering,https://www.depts.ttu.edu/ece/faculty/
+1,,Case Western Reserve University,Materials Science & Engineering,https://engineering.case.edu/materials-science-and-engineering/faculty-and-staff
+1,,"University of Maryland, Baltimore County","Chemical, Biochemical & Environmental Engineering",https://cbee.umbc.edu/faculty/
+1,,https://math.illinois.edu/,Learning Science,https://www.sesp.northwestern.edu/common/people/faculty/ls/
+1,,Rensselaer Polytechnic Institute,Civil and Environmental Engineering,https://cee.rpi.edu/people
+1,,University of Waterloo,PURE MATHEMATICS,https://uwaterloo.ca/pure-mathematics/department-members/faculty-members
+1,,UC Santa Cruz,Economics,https://economics.ucsc.edu/faculty/index.php
+1,,University of Nebraska-Lincoln,Electrical & Computer Engineering,https://engineering.unl.edu/ece/ece-faculty-and-staff/
+1,,University of South Alabama,Computer Science,https://www.southalabama.edu/colleges/soc/computerscience/faculty.html
+1,,Athabasca University,SCHOOL OF COMPUTING AND INFORMATION SYSTEMS > Faculty of Science and Technology,https://scis.athabascau.ca/our-people/our-people.php
+1,,Columbia University,Department of Earth and Environmental Sciences,https://eesc.columbia.edu/
+1,,University of Birmingham,School of Computer Science,https://www.cs.bham.ac.uk/people/
+1,,Australian National University,Engineering & Computer Science,https://cecs.anu.edu.au/people
+1,,University of West Indies St. Augustine,Department of Computing & Information Technology,https://sta.uwi.edu/fst/dcit/staff-profiles
+1,,Tata Institute of Fundamental Research,School of Technology & Computer Science,http://www.tcs.tifr.res.in/people/faculty
+1,,Massachusetts Institute of Technology,Department of Biological Engineering,https://be.mit.edu/directory
+1,,"EPFL, Laussame",School of Engineering >  Electrical Engineering,https://sti.epfl.ch/research/institutes/iel/faculty/
+1,,University of Michigan,School of Information,https://www.si.umich.edu/people/directory/faculty?page=1
+1,,University of Wisconsin - Madison,Engineering Physics,https://directory.engr.wisc.edu/ep/faculty
+1,,University of Alaska Fairbanks,College of Fisheries and Ocean Sciences,https://www.uaf.edu/cfos/people/faculty/index.php
+1,,Jawaharlal Nehru University,School of Computer and Systems Sciences,https://www.jnu.ac.in/scss-faculty
+1,,University of Wisconsin - Madison,Department of Bacteriology,https://bact.wisc.edu/people.php?t=rf
+1,https://polisci.mit.edu/,MIT,Political Science,https://polisci.mit.edu/people/faculty
+1,,University of North Carolina at Chapel Hill,Department of Applied Physical Sciences,https://aps.unc.edu/faculty_full/
+1,,University of Sheffield,Department of Computer Science,https://www.sheffield.ac.uk/dcs/people/academic
+1,,Ohio University,Electrical Engineering and Computer Science,https://www.ohio.edu/engineering/eecs/people/faculty
+1,,York University,Lassonde Engineering,https://lassonde.yorku.ca/faculty-directory
+1,,Yale,Mechanical Engineering and materials science,https://seas.yale.edu/departments/mechanical-engineering-and-materials-science/faculty
+1,,Loughborough University,Computer Science,https://www.lboro.ac.uk/departments/compsci/staff/
+1,,University of California Berkeley,Physics - Particle physics,https://physics.berkeley.edu/research/particle-physics
+1,,Georgia State University,Computer Science,https://www.cs.gsu.edu/role/faculty/
+1,,UC Davis,Department of Physics and Astronomy,http://physics.ucdavis.edu/people/faculty
+1,,UCLA,Anderson School of Management,https://www.anderson.ucla.edu/faculty-and-research/faculty-directory
+1,,Cornell University,Department of Operations Research and Information Engineering,https://www.orie.cornell.edu/orie/faculty-directory
+1,,University of Utah ,Biomedical Engineering,https://www.bme.utah.edu/department-directory/#filter-Faculty
+1,,Harvard University,School of dental medicine,https://hsdm.harvard.edu/people/people-role/faculty-full-time
+1,,University of Ontario Institute Technology,Computer Science,https://science.ontariotechu.ca/graduate/computer-science/people.php
+1,,University of St. Thomas,School of Engineering (Graduate Program in Software),https://www.stthomas.edu/gradsoftware/about/faculty/
+1,,University of Iowa,Electrical and Computer Engineering,https://ece.engineering.uiowa.edu/people
+1,,University of Queensland,School of Agriculture and Food Sciences,https://agriculture.uq.edu.au/team/academic
+1,,Georgia Tech,Mathematics,https://math.gatech.edu/people?field_job_type_tid=11
+1,,University of Chicago Booth,Emeriti,https://www.chicagobooth.edu/faculty/emeriti
+1,,University of Colorado at Boulder,Aerospace Engineering Sciences,https://www.colorado.edu/aerospace/people
+1,,Illinois Wesleyan University,Biology,https://www.iwu.edu/biology/faculty/
+1,,University of New Haven,Engineering,https://www.newhaven.edu/engineering/faculty.php
+1,,University of Washington,Industrial Systems Engineering,https://ise.washington.edu/facultyfinder
+1,,University of Waterloo,Chemical Engineering,https://uwaterloo.ca/chemical-engineering/about/people/group/36
+1,,Korea University,Computer Science and Engineering,https://cs.korea.edu/cs_en/about/professor.do
+1,,University of Wisconsin - Milwaukee,College of Engineering & Applied Science,https://uwm.edu/engineering/classification/faculty/computer-science/
+1,,"University of California, Berkeley ",College of Chemistry ,https://chemistry.berkeley.edu/faculty/chem
+1,,Texas State University,Mathematics Department,https://www.math.txstate.edu/about/people/faculty.html
+1,,Ohio State University,Mechanical and Aerospace Engineering,https://mae.osu.edu/directory/faculty
+1,,UC Davis,Mathematics,https://www.math.ucdavis.edu/people/faculty/
+1,,University of Illinois at Urbana-Champaign,"Nuclear, Plasma & Radiological Engineering",https://npre.illinois.edu/people/faculty
+1,,"Colorado State University, Fort Collins",Department Of Computer Science,https://compsci.colostate.edu/people/
+1,,University of Wisconsin - Madison,Law School,https://law.wisc.edu/directory/
+1,,University of Virginia,Biomedical Engineering,https://engineering.virginia.edu/departments/biomedical-engineering
+1,,Purdue,Nuclear Engineering,https://engineering.purdue.edu/NE/people
+1,,University of Florida,Materials Science and Engineering,https://mse.ufl.edu/people/?cn-s=&cn-cat=3
+1,,Carnegie Mellon University ,Engineering and Public Policy,https://www.cmu.edu/epp/people/faculty
+1,,Old Dominion University,Computational Modeling and Simulation Engineering,https://www.odu.edu/eng/directory
+1,,University of Minnesota,Mathematics,https://math.umn.edu/about/directory?keys=&field_role_type_value=faculty
+1,,University of Pennsylvania,Mathematics,https://www.math.upenn.edu/people/standing-faculty
+1,,University of Cincinnati,Engineering Education,https://ceas.uc.edu/academics/departments/engineering-education/people.html
+1,,University of South Carolina,Computer Science and Engineering,https://www.sc.edu/study/colleges_schools/engineering_and_computing/departments/computer_science_and_engineering/our_people/index.php
+1,,IIIT Hyderabad,All,https://www.iiit.ac.in/people/faculty/
+1,,The University of Tampa,Information Technology and Management,https://www.ut.edu/directory?cat=217
+1,,University of Cambridge,"Mechanical Engineering (Mechanics, Materials and Design)",http://www.eng.cam.ac.uk/people/division/126
+1,,Carthage College,Biology,https://www.carthage.edu/biology/faculty/
+1,,University of Michigan-Dearborn,Computer and Information Science,https://umdearborn.edu/cecs/departments/computer-and-information-science/our-faculty-research
+1,,Purdue,Civil Engineering,https://engineering.purdue.edu/CE/People/Faculty
+1,,University of North Carolina at Charlotte,Software and Information System,https://cci.uncc.edu/directory/sis/faculty
+1,,Stanford University,Civil and Environmental Engineering,https://cee.stanford.edu/people/faculty/grid
+1,,Southern Methodist University,"Engineering management ,Information and systems",https://www.smu.edu/Lyle/Academics/Departments/EMIS/People
+1,,University of Chicago,Pritzker School of Molecular Engineering,https://pme.uchicago.edu/people/faculty-directory
+1,,University of Arizona,Computer Science,https://www.cs.arizona.edu/about/faculty 
+1,,University of Central Florida,Department of Electrical and Computer Engineering,https://www.ece.ucf.edu/people/all-faculty/
+1,,University of Houston Victoria,Arts and Sciences,https://www.uhv.edu/arts-and-sciences/about/faculty/
+1,,Massachusetts Institute of Technology,Institute For Medical Engineering & Science,http://imes.mit.edu/people/faculty/
+1,,Central Connecticut State University,COmputer Science,https://www.ccsu.edu/cs/faculty.html
+1,,University of Minnesota,"Civil, Environmental and Geo-Engineering",http://www.cege.umn.edu/directory/index.html
+1,,California Institute of Technology,Aerospace ,https://galcit.caltech.edu/people
+1,,Georgia Tech,Electrical and Computer Engineering,https://www.ece.gatech.edu/faculty-staff-directory?field_group_filter_value=1
+1,,The University of Manchester,Computer Science,https://www.cs.manchester.ac.uk/about/people/academic-and-research-staff/
+1,,University of Illinois at Urbana–Champaign,School of Information Sciences,https://ischool.illinois.edu/people/faculty
+1,,Rice University,Chemical Biology,https://chemistry.rice.edu/chemical-biology
+1,,University of Washington,Chemical Engineering,https://www.cheme.washington.edu/facresearch/core-faculty.html
+1,,University of Arizona,Electrical and Computer Engineering,https://ece.engineering.arizona.edu/faculty-staff
+1,,Georgia Tech,Biological Sciences,https://biosciences.gatech.edu/people?field_last_name_value=&field_job_category_tid=19
+1,,Stanford University,Chemistry,https://chemistry.stanford.edu/people/faculty
+1,,Seattle University,Computer Science,https://www.seattleu.edu/scieng/computer-science/faculty-and-staff/
+1,,"University of Minnesota, Twin-Cities",Physics,https://www.physics.umn.edu/people/faculty/
+1,,University of Arizona,Biosystems Engineering,https://be.arizona.edu/people-list?field_uaqs_person_category_tid=4
+1,,University of Manchester,Electrical and Electronic Engineering,https://www.eee.manchester.ac.uk/about/people/academic-and-research-staff/
+1,https://neuro.wisc.edu/,University of Wisconsin - Madison,Neuroscience,https://neuro.wisc.edu/faculty-biographies-2/
+1,,University of Hawaii,Electrical Engineering,http://www.ee.hawaii.edu/faculty/
+1,,Indiana University–Purdue University Indianapolis,Computer Science,
+1,,Biola University,Speech-Pathology,https://www.biola.edu/speech-language-pathology-ms/faculty
+1,https://www.hcii.cmu.edu/,Carnegie Mellon University ,Human-Computer Interaction Institute,https://www.hcii.cmu.edu/people/faculty
+1,,University of Michigan,Chemical Engineering,https://che.engin.umich.edu/role/faculty/
+1,,University Of Washington,Department of Bio Engineering,https://bioe.uw.edu/faculty-staff/faculty-directory/
+1,,University of Illinois Urbana-Champaign,School of Molecular and Cellular Biology,http://mcb.illinois.edu/faculty
+1,,Massachusetts Institute of Technology,Civil and Environmental Engineering,https://cee.mit.edu/people/faculty/
+1,,University of Idaho,Mechanical Engineering,https://www.uidaho.edu/engr/departments/me/our-people
+1,,Virginia Tech,Aeospace and Ocean Engineering,https://www.aoe.vt.edu/people/faculty.html
+1,,Portland State University,Electrical Engineering Department ,https://www.pdx.edu/electrical-computer-engineering/faculty
+1,,University of Manchester ,Department of Chemical Engineering and Analytical Science ,https://www.ceas.manchester.ac.uk/about/people/academic-and-research-staff/
+1,,UCLA,Department of Sociology,https://soc.ucla.edu/
+1,,Tulane University ,Freeman School of Business - Finance,https://business.tulane.edu/faculty-research/faculty-listings.php?area=finc&area=finc
+1,,University of Colorado Boulder,Mechanical Engineering,https://www.colorado.edu/mechanical/people/faculty
+1,,Lamar University,Computer Science,https://www.lamar.edu/arts-sciences/computer-science/people/faculty-members/index.html
+1,,University of North Carolina at Chapel Hill,Biology,https://bio.unc.edu/people/faculty/
+1,,Drexel University,Materials Science and Engineering,https://drexel.edu/engineering/academics/departments/materials-science-engineering/faculty-staff/?department={28F44580-E712-431A-B616-23FEBD5B0317}&facultyType={E2763832-FDC8-4021-A5F9-0CE9085C3F90}&q&sortBy=relevance&sortOrder=asc&page=1
+1,,University of North Dakota,Electric and Computer Science,https://engineering.und.edu/academics/electrical-and-computer-science/faculty.html
+1,,University of American ,Mathemastics&statistic,https://www.american.edu/cas/mathstat/faculty/
+1,,University of Johannesburg,Engineering and the Built Environment,https://www.uj.ac.za/faculties/febe/Pages/professor-staff.aspx
+1,,National University of Singapore,Electrical and Computer Engineering,https://www.eng.nus.edu.sg/ece/about-us/people/academic-staff/
+1,,Carnegie Mellon University,Machine Learning,https://www.ml.cmu.edu/people/core-faculty.html
+1,,Duke University,Pratt School of Engineering,https://pratt.duke.edu/faculty
+1,,Texas State University,Ingram School of Engineering,https://www.engineering.txstate.edu/Contact/faculty.html
+1,,"University of California, Los Angeles",Statistics,http://directory.stat.ucla.edu/faculty/ladder/
+1,,Worcester Polytechnic Institute,Civil & Environmental Engineering,https://www.wpi.edu/academics/departments/civil-environmental-engineering/faculty-staff
+1,,Ball State University,Computer Science,https://www.bsu.edu/academics/collegesanddepartments/computer-science/about/faculty-staff
+1,,Indiana University,Department of Information & Library Science,https://ils.indiana.edu/faculty-directory/index.html?&type=2&aca_dept=2
+1,,University of Illinois at Chicago,Civil and Materials Engineering,https://cme.uic.edu/faculty-and-staff/faculty/
+1,,Eastern Illinois University,Mathematics and Computer Science ,https://www.eiu.edu/math/personnel.php
+1,,Davison College,Mathematics and Computer Science ,https://www.davidson.edu/academic-departments/mathematics-and-computer-science/faculty-staff
+1,,University of Bath,Electronic & Electrical Engineering,https://www.bath.ac.uk/teams/department-of-electronic-electrical-engineering-academic-staff
+1,,Yale University,Computer Science,https://cpsc.yale.edu/people/faculty
+1,,University of California - San Diego,Bioengineering,https://jacobsschool.ucsd.edu/faculty?first_name=&last_name=&department=Bioengineering
+1,,University of Memphis,Computer Science,https://www.memphis.edu/cs/people/index.php
+1,,University of Michigan,School of Kinesiology,https://www.kines.umich.edu/directory
+1,,Rice University,Statistics,https://statistics.rice.edu/people/faculty
+1,,Penn State University,Computer Science and Electrical Engineering,https://www.eecs.psu.edu/departments/cse-faculty-list.aspx
+1,,California State University at Northridge,Computer Science,https://www.csun.edu/engineering-computer-science/computer-science/computer-science-faculty
+1,,Rockhurst University,Engineering & Computing,https://www.rockhurst.edu/engineering-computing/faculty
+1,,Rice University,Civil and Environmental Engineering,https://cee.rice.edu/people/faculty
+1,,University of Washington,Department of Aeronautics & Astronautics,https://www.aa.washington.edu/facultyfinder
+1,,"Minnesota State University, Mankato",Integrated Engineering,https://cset.mnsu.edu/departments/integrated-engineering/faculty-and-staff/
+1,,University of Illinois at Chicago,Physics,https://phys.uic.edu/people/facultydirectory/
+1,,University of Illinois at Urbana Champaign,Industrial & Enterprise Systems Engineering,https://ise.illinois.edu/directory/faculty.html
+1,,Washington University in St Louis,Mechanical Engineering and Materials Science,https://mems.wustl.edu/faculty-research/directory.html
+1,https://nursing.umich.edu/,University of Michigan,Nursing,https://nursing.umich.edu/faculty-staff/faculty
+1,,Purdue University,Materials Engineering,https://engineering.purdue.edu/MSE/people/ptFaculty
+1,,Carnegie Mellon University,Electrical and Computer Engineering,https://www.ece.cmu.edu/directory/faculty.html
+1,,Cornell University,Earth and Atomsphere Science,https://www.eas.cornell.edu/eas/faculty-directory
+1,,University of Ottawa,School of Electrical Engineering and Computer Science,https://engineering.uottawa.ca/people?cat_1=976
+1,,Colorado School of Mines,Chemistry,https://chemistry.mines.edu/faculty-and-staff/
+1,,University of Notre Dame,Department of Electrical Engineering,https://ee.nd.edu/people/faculty
+1,,University of Texas Arlington,Mechanical and Aerospace Engineering,https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/mechanical-aerospace/faculty-directory
+1,,The University of Tokyo,"Department of Chemistry & Biotechnology, School of Engineering",http://www.chembio.t.u-tokyo.ac.jp/e/member.html
+1,,Brown University,Neuroscience,https://www.brown.edu/academics/neuroscience/faculty
+1,,Yale University,Applied Mathematics,https://applied.math.yale.edu/people/faculty
+1,,California State University Long Beach,Biomedical Engineering ,http://web.csulb.edu/colleges/coe/bme/faculty/index.shtml
+1,,KTH Stockholm,Computer Science,https://www.kth.se/directory/j/jh
+1,,University of Macau,"Department of Computer and Information Science
+",https://www.cis.um.edu.mo/acadstaff.html
+1,,University of Illinois at Chicago,Chemical Engineering,https://che.uic.edu/faculty-and-staff/core-faculty/
+1,,"University of California, Irvine",Material Science and Engineering,https://engineering.uci.edu/dept/mse/faculty-staff/faculty
+1,,UC San Diego,Electrical and Computer Engineering,http://www.ece.ucsd.edu/people/faculty
+1,,"University of Minnesota, Minneapolis",Mechanical Engineering,https://cse.umn.edu/me/people/faculty
+1,https://che.umass.edu/,"University of Massachusetts, Amherst",Polymer Science and Engineering,https://che.umass.edu/faculty
+1,,University of Florida ,Department of Mechanical & Aerospace Engineering,https://mae.ufl.edu/people/faculty/primary/
+1,,The University of Texas at San Antonio,Department of Computer Science,https://cs.utsa.edu/people/faculty
+1,http://appliedphysics.stanford.edu/,Stanford University,Applied Physics,http://appliedphysics.stanford.edu/people/faculty
+1,,Columbia University,Biological Sciences,https://www.biology.columbia.edu/people/faculty-department
+1,,Shanghai Jiao Tong University,Department of Computer Science and Engineering,http://www.cs.sjtu.edu.cn/en/Faculty.aspx
+1,,Cornell University,Materials Science and Engineering,https://www.mse.cornell.edu/mse/faculty-directory
+1,,Stanford University,Physics Department,https://physics.stanford.edu/people/faculty
+1,,Johns Hopkins University,Information Security Institute,https://isi.jhu.edu/faculty/
+1,,San Jose State University,Mechanical Engineering,https://www.sjsu.edu/me/facultystaff/faculty/index.html
+1,,Rice University,Physics,https://physics.rice.edu/faculty
+1,,"California Polytechnic State University, San Luis Obispo",Biology,https://bio.calpoly.edu/content/faculty-and-staff
+1,,Rutgers university ,Cell Biology and Neuroscience,https://cbn.rutgers.edu/people/faculty
+1,,"University of California, Los Angeles",Computer Science,https://samueli.ucla.edu/search-faculty/#cs
+1,,"California polytechnis state university, pomona",mathematics,https://www.cpp.edu/sci/mathematics-statistics/faculty-and-staff/full-time.shtml
+1,,Boston University,Mechanical Engineering,https://www.bu.edu/eng/departments/me/people/
+1,,Purdue University,Electrical and Computer Engineering,https://engineering.purdue.edu/ECE/People/Faculty
+1,,University of Illinois at Urbana-Champaign,Mechanical Science and Engineering,http://mechanical.illinois.edu/people/faculty
+1,,Villanova University,Civil and Environmental Engineering,https://www1.villanova.edu/villanova/engineering/faculty/facstaff/facultycivil.html
+1,,Harrisburg University,Corporate Faculty,https://www.harrisburgu.edu/about/our-people/faculty-staff/
+1,,Santa Clara University,Mechanical Engineering,https://www.scu.edu/engineering/academic-programs/department-of-mechanical-engineering/faculty-and-staff/
+1,,California State University Long Beach,Electrical Engineering,https://www.csulb.edu/college-of-engineering/electrical-engineering
+1,,UC Berkeley,Nuclear Engineering,https://nuc.berkeley.edu/faculty/
+1,,University of Michigan,Material Science and Engineering,https://mse.engin.umich.edu/people?classification=fac
+1,,Stanford University,Economics,https://economics.stanford.edu/people/faculty
+1,,Florida International University,Civil Engineering,https://cee.fiu.edu/about/faculty-staff/faculty
+1,,Georgia Tech,Economics,https://econ.gatech.edu/people/faculty
+1,,UIUC,Agricultural Engineering,https://abe.illinois.edu/directory/faculty
+1,,Cornell University,Civil and Environmental Engineering,https://www.cee.cornell.edu/cee/faculty-directory
+1,,IIT Kharagpur,Computer Science,http://www.iitkgp.ac.in/department/CS/faculties
+1,,"University of California, Los Angeles",Bioengineering,https://samueli.ucla.edu/search-faculty#be
+1,,Duke University,Electrical and Computer Engineering,https://ece.duke.edu/faculty
+1,,ABES Engineering College,Computer Science,https://www.abes.ac.in/academics/departments/under-graduate/computer-science-engineering/faculty/
+1,,University of Waterloo,System Design Engineering,https://uwaterloo.ca/systems-design-engineering/about/people/group/34
+1,,Charlestone southern University ,Deparment of computer science ,https://www.charlestonsouthern.edu/directory/
+1,,Western Washington University,Department of Engineering and Design,https://engineeringdesign.wwu.edu/directory/faculty
+1,,Rensselaer Polytechnic Institute,Material Science and Engineering,https://mse.rpi.edu/people
+1,,University of Cambridge,Information Engineering,http://www.eng.cam.ac.uk/people/division/121?field_user_list_category_tid=216
+1,,University of Waterloo,Earth and Environmental Sciences,https://uwaterloo.ca/earth-environmental-sciences/about/people/group/25
+1,,Washington University in St Louis,Computer Science,https://cse.wustl.edu/faculty-research/directory.html
+1,,Oregon State University,"Mechanical, Industrial, and Manufacturing Engineering",https://mime.oregonstate.edu/faculty-and-staff/research-faculty
+1,,Hampton University,Physics,https://science.hamptonu.edu/physics/faculty/index.cfm
+1,,Hampton University,Chemistry,https://science.hamptonu.edu/chem/faculty/index.cfm
+1,,Florida International University,Electrical and Computer Engineering,https://ece.fiu.edu/people/faculty/
+1,,University of Kentucky,Mechanical Engineering,https://www.engr.uky.edu/research-faculty/departments/mechanical-engineering/people
+1,,Stevens Institute of Technology,Chemical Engineering and Materials Science,https://www.stevens.edu/schaefer-school-engineering-science/departments/chemical-engineering-materials-science/faculty-staff
+1,,University of South Carolina,Integrated Information Technology,https://www.sc.edu/study/colleges_schools/engineering_and_computing/departments/integrated_information_technology/our_people/index.php
+1,,University of Illinois at Urbana Champaign,Statistics,https://stat.illinois.edu/directory/faculty
+1,,Texas A&M,Aerospace Engineering,https://engineering.tamu.edu/aerospace/profiles/index.html#Faculty
+1,,Benedictine University,Science,http://www.ben.edu/college-of-science/people/faculty-and-staff-directory.cfm
+1,https://engineering.mit.edu/,MIT,Economics,https://engineering.mit.edu/faculty/
+1,,American University,Chemistry,https://www.american.edu/cas/chemistry/
+1,,University of Illinois at Urbana Champaign,Mathematics,https://math.illinois.edu/directory/faculty
+1,,UNIVERSITY of NEW ORLEANS,Computer Science,https://www.uno.edu/academics/college-of-engineering/departments-and-schools/mechanical-engineering/faculty
+1,,"University of California, San Diego",Economics,https://economics.ucsd.edu/faculty-and-research/faculty-profiles/
+1,,University of Arizona,Systems and Industrial Engineering,https://sie.engineering.arizona.edu/faculty-staff/faculty
+1,,University of Wisconsin-Stout,Computer Science,https://www.uwstout.edu/directory?search=&f%5B0%5D=department_content_title%3AMathematics%2C%20Statistics%20and%20Computer%20Science%20Department
+1,,Carnegie Mellon University,Mathematical Sciences,https://www.cmu.edu/math/people/faculty/index.html
+1,,University of Essex,Computer Science,https://www.essex.ac.uk/departments/computer-science-and-electronic-engineering/people/academic
+1,,University of Illinois at Urbana-Champaign,,https://nres.illinois.edu/directory/faculty
+1,,University of Illinois at Urbana-Champaign,Materials Science & Engineering,https://matse.illinois.edu/people/faculty
+1,,Seattle University,Mathematics,https://www.seattleu.edu/scieng/math/about-us--find-us/faculty-and-staff/
+1,,Massachusetts Institute of Technology,"Data, Systems, and Society",https://idss.mit.edu/people/?category=faculty
+1,,University of Illinois at Urbana-Champaign,Bioengineering,https://bioengineering.illinois.edu/directory/index.html
+1,,Temple University,Civil Engineering,https://www.temple.edu/academics/degree-programs/civil-engineering-ms-en-cee-msce/our-faculty
+1,,New York University,Mathematics,https://math.nyu.edu/dynamic/people/faculty/
+1,,University of Bristol,Computer Science,http://www.bristol.ac.uk/engineering/people/staff.html
+1,,"University of Minnesota, Twin Cities",Biomedical Engineering,https://cse.umn.edu/bme/faculty
+1,,Texas State University,Dept of Eng Technology,https://faculty.txstate.edu/search?page=1&perpage=10&dept=Dept%20of%20Eng%20Technology
+1,,Purdue University,College of Engineering,https://engineering.purdue.edu/Engr/People/ptDirectory
+1,,The University of Chicago ,Computer Science,https://www.cs.uchicago.edu/people/faculty/
+1,,Goethe Universität Frankfurt,Economics and Business,https://www.wiwi.uni-frankfurt.de/en/faculty/faculty-a-z.html
+1,,National University of Singapore,Marketing,https://bizfaculty.nus.edu.sg/faculty-profiles/?departmentId=5
+1,,Rensselaer Polytechnic Institute,Chemical And Biomolecular Engineering (CBE),https://cbe.rpi.edu/people
+1,,University of Montreal,Department of Mathematics and Statistics,https://dms.umontreal.ca/en/departmental-directory/professors
+1,,Carnegie Mellon University,Machine Learning Department,https://www.ml.cmu.edu/people/core-faculty.html
+1,,Providence College,Mathematics & Computer Science,https://mathematics-computer-science.providence.edu/faculty/
+1,,Yeshiva University,Mathematics,https://www.yu.edu/yeshiva-college/ug/mathematics/faculty
+1,,MIT,Biology,https://biology.mit.edu/faculty-and-research/faculty/
+1,,University of California - Merced,College of Engineering,https://engineering.ucmerced.edu/faculty
+1,,Stony Brook,College of Business,https://www.stonybrook.edu/commcms/business/about/_faculty/
+1,,Marquette University,Biological Sciences,https://www.marquette.edu/biology/directory/
+1,,IIT Delhi,Electrical Engineering,http://ee.iitd.ac.in/people/faculty.html
+1,,University of Oregon,Physiology,https://physiology.uoregon.edu/profiles/faculty/
+1,,De Anza College,Chemistry,https://www.deanza.edu/chemistry/faculty.html
+1,,Rochester Institute of Technology,Biomedical Engineering BS,https://www.rit.edu/program-directory?program=6219021
+1,,Georgia Tech,Aerospace Engineering,http://www.ae.gatech.edu/people/faculty
+1,,Berklee College of Music,All,https://www.berklee.edu/faculty
+1,,University of Iowa,Biology,https://biology.uiowa.edu/people/faculty
+1,,Baylor University,Mathematics,https://www.baylor.edu/math/index.php?id=53580
+1,,University of Texas San Antonio,Electrical and Computer Engineering,https://engineering.utsa.edu/electrical-computer/faculty-staff/
+1,,University of Boulder Colorado,"Electrical, Computer & Energy Engineering",https://www.colorado.edu/ecee/faculty-staff
+1,,University of Southern California,Electrical and Computer Engineering,https://minghsiehece.usc.edu/directory/faculty/
+1,,San Jose State University,Math,https://www.sjsu.edu/math/people/faculty/
+1,,Rensselaer Polytechnic Institute,Cognitive Science,https://faculty.rpi.edu/departments/Cognitive-Science
+1,,Clarion University ,Communication Science & Disorders,https://www.clarion.edu/faculty-staff/
+1,,University of North Texas,Department of Mathematics,https://math.unt.edu/
+1,,Northwestern University,Mechanical Engineering,https://www.mccormick.northwestern.edu/mechanical/people/faculty/
+1,,Georgia Tech,Physics,https://physics.gatech.edu/people/faultcy
+1,,University of Southern California,Industrial & Systems Engineering,https://ise.usc.edu/directory/faculty/
+1,,Northwestern University,physics,https://physics.northwestern.edu/people/faculty/core-faculty/index.html
+1,,Pennsyvania State University,Aerospace Engineering,https://www.aero.psu.edu/department/faculty-list.aspx
+1,,UC Berkeley,Economics,https://www.econ.berkeley.edu/faculty/list
+1,,Harvard University,Philosophy,https://philosophy.fas.harvard.edu/faculty-1
+1,https://www.linguistics.utoronto.ca/,University of Toronto,Linguistics,https://www.linguistics.utoronto.ca/people/directories/all-faculty
+1,,UC Berkeley,Philosophy,https://philosophy.berkeley.edu/people
+1,,Singapore Management University,School of Information Systems,https://sis.smu.edu.sg/faculty
+1,,Moraine Valley CC,,https://campusdirectory.morainevalley.edu/#/results-employees/MTC/department
+1,,Carnegie Mellon University,Language Technologies Institute,https://www.lti.cs.cmu.edu/directory/all/154/1
+1,,University of Wisconsin-Madison,Statistics,https://stat.wisc.edu/people-main-faculty/
+1,,"University of California, Los Angeles",Math,https://www.math.ucla.edu/people/ladder
+1,,Penn State University,Statistics,https://science.psu.edu/people?department=17&person_type=47&unit=All
+1,https://history.cornell.edu/,Cornell University,History,https://history.cornell.edu/faculty
+1,,Indiana University,Department of Mathematics,https://math.indiana.edu/about/faculty/bainbridge-matt.html
+1,,University of Delaware,Materials Science & Engineering,https://mseg.udel.edu/people/faculty/
+1,,Northeastern University,Electrical & Computer Engineering,https://ece.northeastern.edu/fac/faculty-directory/?display=all
+1,,University of New Mexico,Computer Science,https://www.cs.unm.edu/directory/index.html
+1,,"University of Massachusetts, Dartmouth",Computer and Information Science,https://www.umassd.edu/directory/?department=Computer+%26+Information+Science
+1,,Montclair State University,Computer Science,https://www.montclair.edu/computer-science/staff-directory/
+1,,University of Pittsburgh,Mathematics,http://www.mathematics.pitt.edu/people/faculty
+1,https://music.stanford.edu/,Stanford University,Music Department,https://music.stanford.edu/people/faculty
+1,,"University of California, Los Angeles",Mechanical Engineering,https://samueli.ucla.edu/search-faculty/#mae
