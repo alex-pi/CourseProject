@@ -1,0 +1,39 @@
+        # links = response.xpath('//a[string-length(@href) > 0]')
+        '''print('**********')
+        for link in links:
+            next_link = link.xpath('@href').extract_first()
+            print(f'extracted_link: {next_link}')'''
+
+        '''for link in links:
+            next_link = link.xpath('@href').extract_first()
+            if next_link:
+                full_link = response.urljoin(next_link)
+                # print(f'next_link: {next_link}, full_link: {full_link}')
+                if 'stanford.edu' in full_link and 'http' in full_link:
+                    yield scrapy.Request(
+                        response.urljoin(next_link),
+                        callback=self.parse)'''
+
+
+'''
+CrawlerSpider allows less customization, but it follows the links automatically
+I am leaving the code as example for now.
+'''
+class LinkCrawlSpider(CrawlSpider):
+    name = 'links2'
+    custom_settings = {
+        # 'DOWNLOAD_DELAY': 10,
+        'LOG_LEVEL': 'ERROR',
+        'DEPTH_LIMIT': 2
+    }
+    #rules = [
+    #    scrapy.Rule(SgmlLinkExtractor(allow_domains=('www.stanford.edu' ), ),) ]
+
+    def __init__(self, *args, **kwargs):
+        # self.depth = kwargs.get('depth')
+        # self.custom_settings = kwargs.get('custom_settings')
+        super(LinkSpider, self).__init__(*args, **kwargs)
+
+    def parse_item(self, response):
+        depth = response.meta['depth']
+        print(f'current url: {response.url}, depth: {depth}')
