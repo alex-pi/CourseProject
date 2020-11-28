@@ -9,10 +9,15 @@ import numpy as np
 import time
 from collections import defaultdict
 import csv
+import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
 import pickle
+from sklearn.metrics import precision_recall_curve
+from sklearn.metrics import PrecisionRecallDisplay
+from sklearn.metrics import average_precision_score
+import matplotlib.pyplot as plt
 
 from sklearn.naive_bayes import MultinomialNB
 
@@ -319,15 +324,16 @@ class ulr_faculty_classification:
         filename = 'finalized_model.sav'
         loaded_model = pickle.load(open(filename, 'rb'))
         test_token = self.getTestURLNgramToken(url)
+        test_NgramTokenlists = self.getNgramToken(test_token)
         
-        test_term_doc_matrix = self.build_testLink_term_doc_matrix(test_token)
-        #predict_label = self.SVMClassifier.predict(test_term_doc_matrix)
+        test_term_doc_matrix = self.build_testLink_term_doc_matrix(test_NgramTokenlists)
         
         predict_label = loaded_model.predict(test_term_doc_matrix)
         
         return predict_label
                     
 if __name__ == "__main__":
+    print('The scikit-learn version is {}.'.format(sklearn.__version__))
     file_path = 'TrainingDataSetTest.csv'
     start_time=time.time()
     facultyClass = ulr_faculty_classification(file_path)
@@ -335,10 +341,33 @@ if __name__ == "__main__":
     facultyClass.SVM_Classification()
     print("prediction label: 1 --- faculty directory, 0--- None")
     #Validate SVM Model
-    dir_url ='https://ece.umass.edu/'
+    dir_url ='https://www.cs.arizona.edu/about/faculty'
     predict_labels = facultyClass.SVM_Predict(dir_url)
     print('URL prediction',predict_labels,"=",dir_url)
     dir_url ='https://compbio.cornell.edu/people/faculty/'
     predict_labels = facultyClass.SVM_Predict(dir_url)
     print('URL prediction',dir_url,"=",predict_labels)
+    #Model Validation
+    file_path = 'TrainingTestingDataSet.csv'
+    testClass = ulr_faculty_classification(file_path)
+    testData = testClass.readFile(testClass.documents_path)
+    test_urls = testClass.getURL_linkfromTrainingDoc(testData)
+    test_label = testClass.build_labels(testData)
+    print(test_label)
+    index = 0
+    y_test = []
+    for url in test_urls:
+        predict_labels = facultyClass.SVM_Predict(url)
+        y_test.append(predict_labels)
+        if (predict_labels - test_label[index]) != 0 :
+            print(url, index, predict_labels)
+        index = index + 1
+    average_precision = average_precision_score(y_test, test_label)
+    print('Average precision-recall score: {0:0.2f}'.format(
+      average_precision))
+    precision, recall, thresholds = precision_recall_curve(test_label, y_test)
+    
+    pr_display = PrecisionRecallDisplay(precision=precision, recall=recall).plot()
     print("--- %s seconds ---" % (time.time() - start_time))
+    
+    
