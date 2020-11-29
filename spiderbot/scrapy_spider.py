@@ -5,6 +5,7 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.exceptions import DropItem
 from itemadapter import ItemAdapter
 from scrapy import signals
+from urlclassification import url_classification as uc
 
 
 class LinkSpider(scrapy.Spider):
@@ -55,13 +56,18 @@ class LinkSpider(scrapy.Spider):
 
 class ClassificationPipeline:
 
+    def __init__(self):
+        self.classifier = uc.ulr_faculty_classification()
+        self.classifier.SVM_Classification()
+
     # We can make this async
     def process_item(self, item, spider):
         # print(f"Classifying URL: {item['link']}")
 
         # Change this condition for a call to Gang's classifier
         # time.sleep(5)
-        if 'faculty' in item['link']:
+        result = self.classifier.SVM_Predict(item['link'])
+        if result != 0:
             print(f"Found candidate: {item['link']}")
             return item
         else:
@@ -87,7 +93,7 @@ class LinkItem(scrapy.Item):
     text = scrapy.Field()
 
 
-if __name__ == "__main__":
+def start(base_url):
     '''More settings can be added here to change the spider behaviour
     https://docs.scrapy.org/en/latest/topics/settings.html'''
     process = CrawlerProcess({
@@ -115,6 +121,10 @@ if __name__ == "__main__":
             'spiderbot.scrapy_spider.ClassificationPipeline': 300
         }
     })
-    process.crawl(LinkSpider, start_urls=['https://www.stanford.edu/'],
+    process.crawl(LinkSpider, start_urls=[base_url],
                   main_domain=['stanford.edu'], max_to_scrap=1000)
     process.start()
+
+
+if __name__ == "__main__":
+    start('https://www.stanford.edu/')
