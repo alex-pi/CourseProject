@@ -9,7 +9,7 @@ from itemadapter import ItemAdapter
 from scrapy import signals
 from urlclassification import url_classification as uc
 from scrapy.exporters import CsvItemExporter
-from globals import DATA_PATH
+from globals import DATA_OUTPUT_PATH
 
 
 class LinkSpider(scrapy.Spider):
@@ -94,7 +94,7 @@ class DuplicatesPipeline:
 class LinkItemExporterPipeline:
 
     def open_spider(self, spider):
-        self.exported_data_path = os.path.join(DATA_PATH, spider.main_domain[0])
+        self.exported_data_path = os.path.join(DATA_OUTPUT_PATH, spider.main_domain[0])
         f = open(f'{self.exported_data_path}-all.csv', 'wb')
         f2 = open(f'{self.exported_data_path}-positive.csv', 'wb')
         self.exporter_all = CsvItemExporter(f)
@@ -134,8 +134,8 @@ def start(base_url, max_urls_to_scrap=50):
         'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
         # End of Broad crawling configuration
         'LOG_LEVEL': 'ERROR',
-        'DEPTH_LIMIT': 5,
-        'CLOSESPIDER_PAGECOUNT': 5000,
+        'DEPTH_LIMIT': 6,
+        'CLOSESPIDER_PAGECOUNT': 25000,
         # Defaults to 8
         'CONCURRENT_REQUESTS_PER_DOMAIN': 12,
         # Concurrent items (per response) to be processed in the pipelines
@@ -161,7 +161,9 @@ def start(base_url, max_urls_to_scrap=50):
                   main_domain=[domain], max_to_scrap=max_urls_to_scrap)
     process.start()
 
+    # return here the path to look for
+
 
 if __name__ == "__main__":
-    start('https://illinois.edu/')
+    start('https://illinois.edu/', max_urls_to_scrap=1000)
     #start('https://www.stanford.edu/')
