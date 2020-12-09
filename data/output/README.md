@@ -1,0 +1,1 @@
+This holds all of the output data from the scraper.

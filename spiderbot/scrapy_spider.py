@@ -2,7 +2,7 @@ import scrapy
 import re
 import os
 from urllib.parse import urlparse
-from scrapy.crawler import CrawlerProcess
+from scrapy.crawler import CrawlerRunner
 from scrapy.linkextractors import LinkExtractor
 from scrapy.exceptions import DropItem
 from itemadapter import ItemAdapter
@@ -125,7 +125,7 @@ class LinkItem(scrapy.Item):
 def start(base_url, max_urls_to_scrap=50):
     '''More settings can be added here to change the spider behaviour
     https://docs.scrapy.org/en/latest/topics/settings.html'''
-    process = CrawlerProcess({
+    process = CrawlerRunner({
         # 'DOWNLOAD_DELAY': 10,
         # Broad crawling can demand more memory but page crawling is faster
         # Next 3 lines force to do BFO instead of DFO
@@ -157,11 +157,8 @@ def start(base_url, max_urls_to_scrap=50):
     # TODO improve this subdomain extraction
     if 'www' in domain:
         domain = '.'.join(domain.split('.')[1:])
-    process.crawl(LinkSpider, start_urls=[base_url],
+    return process.crawl(LinkSpider, start_urls=[base_url],
                   main_domain=[domain], max_to_scrap=max_urls_to_scrap)
-    process.start()
-
-    # return here the path to look for
 
 
 if __name__ == "__main__":

@@ -5,5 +5,4 @@
 **/*.iml
 .idea
 idx*/**
-data/output/**
 __pycache__
