@@ -49,6 +49,7 @@ class LinkSpider(scrapy.Spider):
                 item = LinkItem()
                 item['link'] = link.url
                 item['text'] = re.sub(r'\s+', ' ', link.text)
+                item['depth'] = depth
                 yield item
                 # print(f'extracted_link: {link.url}, text: {link.text}')
                 # Here we can add more conditions to discard URLs we don't want
@@ -119,6 +120,7 @@ class LinkItemExporterPipeline:
 class LinkItem(scrapy.Item):
     link = scrapy.Field()
     text = scrapy.Field()
+    depth = scrapy.Field()
     label = scrapy.Field()
 
 
@@ -144,7 +146,7 @@ def start(base_url, max_urls_to_scrap=50):
         # 'RETRY_ENABLED': False,
         # 'DOWNLOAD_TIMEOUT': 40,
         # Need to find a way to avoid secured pages that redirect to a login page
-        'REDIRECT_ENABLED': False,
+        'REDIRECT_ENABLED': True,
         'ITEM_PIPELINES': {
             # We can add more pipeline steps like sending URL candidates to
             # a second classifier based on actual page content.
