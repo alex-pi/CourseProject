@@ -1,1 +1,1 @@
-web: gunicorn app:faculty_scraper_ui
+web: gunicorn faculty_scraper_ui:app
