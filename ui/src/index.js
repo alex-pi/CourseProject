@@ -6,7 +6,7 @@ import Results from './results.js';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={FacultySearchBox} />
             <Route path="/results" component={Results} />

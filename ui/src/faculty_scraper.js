@@ -73,9 +73,9 @@ class FacultySearchBox extends React.Component {
                     // Don't go to results page if nothing to display.
                     if (data["urls"].length == 0) {
                         document.getElementById("input").setCustomValidity("Failed to get results! Check URL and make sure it is correct. Maybe try with/without the www.");
+                    } else {
+                        this.props.history.push({ pathname: "/results", data: data["urls"] });
                     }
-
-                    this.props.history.push({ pathname: "/results", data: data["urls"] });
                 } else {
                     setTimeout(this.sendRequest, 10000);
                 }

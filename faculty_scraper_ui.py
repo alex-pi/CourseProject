@@ -47,13 +47,16 @@ def scrape(url):
     if 'www' in domain:
         domain = '.'.join(domain.split('.')[1:])
     csv_path = os.path.join(DATA_OUTPUT_PATH, domain)
+    csv_all_path = csv_path + "-all.csv"
     csv_path += "-positive.csv"
     completed_tasks[url] = convert_csv_to_json(csv_path)
+    os.remove(csv_path)
+    os.remove(csv_all_path)
     in_progress.remove(url)
 
 @crochet.wait_for(timeout=99999)
 def scrape_with_crochet(url):
-    return start(url, max_urls_to_scrap=200)
+    return start(url, max_urls_to_scrap=100)
 
 def convert_csv_to_json(csvPath):
     urls = []
@@ -61,7 +64,6 @@ def convert_csv_to_json(csvPath):
     # Iterate through the CSV and grab only the desired values.
     if (os.path.getsize(csvPath) != 0):
         with open(csvPath, "r") as file:
-
             next(file)
             for line in file:
                 line_split = line.split(",")
