@@ -40,10 +40,10 @@ def submit():
             return jsonify(result=False, urls=[])
 
 def scrape(url):
-    scrape_with_crochet(request.json['url'])
+    scrape_with_crochet(url)
 
     # Convert the CSV data to JSON.
-    domain = urlparse(request.json['url']).netloc
+    domain = urlparse(url).netloc
     if 'www' in domain:
         domain = '.'.join(domain.split('.')[1:])
     csv_path = os.path.join(DATA_OUTPUT_PATH, domain)
@@ -53,7 +53,7 @@ def scrape(url):
 
 @crochet.wait_for(timeout=99999)
 def scrape_with_crochet(url):
-    return start(url, max_urls_to_scrap=200)
+    return 
 
 def convert_csv_to_json(csvPath):
     urls = []
