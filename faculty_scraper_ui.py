@@ -29,9 +29,9 @@ def submit():
         csv_path += "-positive.csv"
         return convert_csv_to_json(csv_path)
 
-@crochet.wait_for(timeout=120.0)
+@crochet.wait_for(timeout=99999)
 def scrape_with_crochet(url):
-    return start(url)
+    return start(url, max_urls_to_scrap=200)
 
 def convert_csv_to_json(csvPath):
     urls = []
