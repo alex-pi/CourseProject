@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+body {
+    background: #f2f2f2;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.listTitle {
+    color: #9a8ea1;
+    font-size: 70px;
+    position: absolute;
+    padding-left: 30px;
+}
+
+.listBar {
+    border-top: 2px solid #9a8ea1;
+    background-color: #9a8ea1;
+    border-color: #9a8ea1;
+    position: relative;
+    top: 150px;
+    width: 30%;
+    margin: 28px;
+    height: 2px;
+}
+
+.list {
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+    top: 150px;
+}
+
+.listItem {
+    font-size: 33px;
+    line-height: 90px;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.url {
+    color: #9c84a8;
+    text-decoration: none;
+}
+
+.error {
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #9c84a8;
+}
