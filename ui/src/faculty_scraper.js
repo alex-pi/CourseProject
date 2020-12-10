@@ -34,7 +34,7 @@ class FacultySearchBox extends React.Component {
             return;
 
         // Want to accept only URls that end in .edu ignoring trailing /s.
-        var urlString = String(this.state.url).replace(/\/$/, "")
+        var urlString = this.reformatUrl(String(this.state.url).replace(/\/$/, ""));
         if (this.validateUrl(urlString)) {
             console.log("Invalid URL.");
             return;
@@ -42,22 +42,40 @@ class FacultySearchBox extends React.Component {
         this.setState({loading: true});
 
         // Send the request and start polling.
-        this.sendRequest()
+        this.sendRequest(urlString);
     }
 
     validateUrl(urlString) {
-        return !urlString.endsWith('.edu') || !/^[a-zA-Z:\/\.]+$/.test(urlString) ||
-            (!urlString.startsWith('http://www.') && !urlString.startsWith('https://www.'));
+        return !urlString.endsWith('.edu') || !/^[a-zA-Z:\/\.]+$/.test(urlString);
     }
 
-    sendRequest() {
+    reformatUrl(urlString) {
+        var out = urlString;
+
+        if (!(urlString.startsWith("https://") || urlString.startsWith("http://"))) {
+            out = "https://".concat(out);
+        }
+
+        if (!out.startsWith("http://www.") && !out.startsWith("https://www.")) {
+            var pos = out.indexOf("//") + 2;
+            out = [out.slice(0, pos), "www.", out.slice(pos)].join('');
+        }
+
+        console.log("Formatted url: ", out);
+
+        return out;
+    }
+
+    sendRequest(url) {
         // Send request to flask with the URL.
         const requestOptions = {
             method: 'POST',
             mode: "cors",
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ url: this.state.url })
+            body: JSON.stringify({ url: url })
         };
+        
+        console.log("Sending request to ", url);
 
         fetch('https://facultyscraper-heroku.herokuapp.com/', requestOptions)
             .then(response => {
@@ -77,7 +95,7 @@ class FacultySearchBox extends React.Component {
                         this.props.history.push({ pathname: "/results", data: data["urls"] });
                     }
                 } else {
-                    setTimeout(this.sendRequest, 10000);
+                    setTimeout(this.sendRequest, 10000, url);
                 }
             })
             .catch((_error) => {
@@ -93,7 +111,7 @@ class FacultySearchBox extends React.Component {
 
         return [
             <h1 className="title">Faculty Scraper</h1>,
-            <form onSubmit={this.handleSubmit} className="wrap">
+            <form onSubmit={this.handleSubmit} className="wrap" autoComplete="on">
                 <label className="scrape">
                     <input autoFocus type="text" id="input" value={this.state.url} onChange={this.handleChange} placeholder="Input a university URL (e.g. https://www.illinois.edu)" className="scrapeBar" />
                     <button type="submit" className="scrapeButton">

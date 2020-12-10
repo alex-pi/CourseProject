@@ -53,6 +53,7 @@ def scrape(url):
     os.remove(csv_path)
     os.remove(csv_all_path)
     in_progress.remove(url)
+    print(("=" * 15) +  " Done! " + ("=" * 15))
 
 @crochet.wait_for(timeout=99999)
 def scrape_with_crochet(url):
@@ -62,13 +63,12 @@ def convert_csv_to_json(csvPath):
     urls = []
 
     # Iterate through the CSV and grab only the desired values.
-    if (os.path.getsize(csvPath) != 0):
-        with open(csvPath, "r") as file:
-            next(file)
-            for line in file:
-                line_split = line.split(",")
-                if (len(line_split) != 0):
-                    urls.append(line_split[2])
+    with open(csvPath, "r") as file:
+        next(file)
+        for line in file:
+            line_split = line.split(",")
+            if (len(line_split) != 0):
+                urls.append(line_split[2])
 
     return urls
 
