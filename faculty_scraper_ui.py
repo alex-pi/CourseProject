@@ -65,7 +65,7 @@ def convert_csv_to_json(csvPath):
             next(file)
             for line in file:
                 line_split = line.split(",")
-                urls.append(line_split[1])
+                urls.append(line_split[2])
 
     return urls
 
