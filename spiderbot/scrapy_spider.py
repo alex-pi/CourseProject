@@ -3,6 +3,7 @@ import re
 import os
 from urllib.parse import urlparse
 from scrapy.crawler import CrawlerRunner
+from scrapy.crawler import CrawlerProcess
 from scrapy.linkextractors import LinkExtractor
 from scrapy.exceptions import DropItem
 from itemadapter import ItemAdapter
@@ -10,14 +11,24 @@ from scrapy import signals
 from urlclassification import url_classification as uc
 from scrapy.exporters import CsvItemExporter
 from globals import DATA_OUTPUT_PATH
+from globals import get_data_paths
+from pathlib import Path
 
 
 class LinkSpider(scrapy.Spider):
     name = 'links'
 
     def __init__(self, *args, **kwargs):
-        self.main_domain = kwargs.get('main_domain')
-        self.max_to_scrap = kwargs.get('max_to_scrap')
+        print(f'Parameters: {kwargs}')
+
+        self.start_url = kwargs['start_urls'][0]
+        self.data_paths = get_data_paths(self.start_url)
+        self.main_domain = [self.data_paths['domain']]
+        self.start_urls = [self.start_url]
+
+        #self.exported_data_path = os.path.join(DATA_OUTPUT_PATH, domain)
+        #elf.main_domain = kwargs.get('main_domain')
+        self.max_to_scrap = int(kwargs.get('max_to_scrap', 10))
         self.num_scraped = 0
         self.link_extractor = LinkExtractor(allow_domains=self.main_domain)
         super(LinkSpider, self).__init__(*args, **kwargs)
@@ -30,6 +41,9 @@ class LinkSpider(scrapy.Spider):
 
     def item_scraped(self, item):
         self.num_scraped = self.num_scraped + 1
+
+    def closed(self, reason):
+        Path(self.data_paths['done']).touch()
 
     def parse(self, response):
         if self.num_scraped >= self.max_to_scrap:
@@ -95,9 +109,8 @@ class DuplicatesPipeline:
 class LinkItemExporterPipeline:
 
     def open_spider(self, spider):
-        self.exported_data_path = os.path.join(DATA_OUTPUT_PATH, spider.main_domain[0])
-        f = open(f'{self.exported_data_path}-all.csv', 'wb')
-        f2 = open(f'{self.exported_data_path}-positive.csv', 'wb')
+        f = open(spider.data_paths['all_data_path'], 'wb')
+        f2 = open(spider.data_paths['positive_data_path'], 'wb')
         self.exporter_all = CsvItemExporter(f)
         self.exporter_all.start_exporting()
         self.exporter_pos = CsvItemExporter(f2)
@@ -124,45 +137,53 @@ class LinkItem(scrapy.Item):
     label = scrapy.Field()
 
 
+settings = {
+    # 'DOWNLOAD_DELAY': 10,
+    # Broad crawling can demand more memory but page crawling is faster
+    # Next 3 lines force to do BFO instead of DFO
+    'DEPTH_PRIORITY': 1,
+    'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
+    'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
+    # End of Broad crawling configuration
+    'LOG_LEVEL': 'ERROR',
+    'DEPTH_LIMIT': 4,
+    'CLOSESPIDER_PAGECOUNT': 25000,
+    # Defaults to 8
+    'CONCURRENT_REQUESTS_PER_DOMAIN': 12,
+    # Concurrent items (per response) to be processed in the pipelines
+    'CONCURRENT_ITEMS': 30,
+    # False Improves performance at the cost of missing content
+    'RETRY_ENABLED': False,
+    'DOWNLOAD_TIMEOUT': 5,
+    'DNS_TIMEOUT': 2,
+    # Need to find a way to avoid secured pages that redirect to a login page
+    'REDIRECT_ENABLED': True,
+    'ITEM_PIPELINES': {
+        # We can add more pipeline steps like sending URL candidates to
+        # a second classifier based on actual page content.
+        'spiderbot.scrapy_spider.DuplicatesPipeline': 100,
+        'spiderbot.scrapy_spider.ClassificationPipeline': 110,
+        'spiderbot.scrapy_spider.LinkItemExporterPipeline': 300
+    }
+}
+
+
 def start(base_url, max_urls_to_scrap=50):
     '''More settings can be added here to change the spider behaviour
     https://docs.scrapy.org/en/latest/topics/settings.html'''
-    process = CrawlerRunner({
-        # 'DOWNLOAD_DELAY': 10,
-        # Broad crawling can demand more memory but page crawling is faster
-        # Next 3 lines force to do BFO instead of DFO
-        'DEPTH_PRIORITY': 1,
-        'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
-        'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
-        # End of Broad crawling configuration
-        'LOG_LEVEL': 'ERROR',
-        'DEPTH_LIMIT': 6,
-        'CLOSESPIDER_PAGECOUNT': 25000,
-        # Defaults to 8
-        'CONCURRENT_REQUESTS_PER_DOMAIN': 12,
-        # Concurrent items (per response) to be processed in the pipelines
-        'CONCURRENT_ITEMS': 80,
-        # False Improves performance at the cost of missing content
-        # 'RETRY_ENABLED': False,
-        # 'DOWNLOAD_TIMEOUT': 40,
-        # Need to find a way to avoid secured pages that redirect to a login page
-        'REDIRECT_ENABLED': True,
-        'ITEM_PIPELINES': {
-            # We can add more pipeline steps like sending URL candidates to
-            # a second classifier based on actual page content.
-            'spiderbot.scrapy_spider.DuplicatesPipeline': 100,
-            'spiderbot.scrapy_spider.ClassificationPipeline': 110,
-            'spiderbot.scrapy_spider.LinkItemExporterPipeline': 300
-        }
-    })
-    domain = urlparse(base_url).netloc
-    # TODO improve this subdomain extraction
-    if 'www' in domain:
-        domain = '.'.join(domain.split('.')[1:])
-    return process.crawl(LinkSpider, start_urls=[base_url],
-                  main_domain=[domain], max_to_scrap=max_urls_to_scrap)
+    process = CrawlerRunner(settings)
+
+    return process.crawl(LinkSpider, start_urls=[base_url], max_to_scrap=max_urls_to_scrap)
+
+
+def cli_start(base_url, max_urls_to_scrap=50):
+    process = CrawlerProcess(settings)
+
+    process.crawl(LinkSpider, start_urls=[base_url], max_to_scrap=max_urls_to_scrap)
+    process.start()
 
 
 if __name__ == "__main__":
-    start('https://illinois.edu/', max_urls_to_scrap=1000)
+    cli_start('https://illinois.edu/', max_urls_to_scrap=100)
+    #cli_start('https://www.stanford.edu/', max_urls_to_scrap=1000)
     #start('https://www.stanford.edu/')
