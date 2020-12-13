@@ -17,16 +17,17 @@ class LinkSpider(scrapy.Spider):
     name = 'links'
 
     def __init__(self, *args, **kwargs):
-        print(f'Parameters: {kwargs}')
 
         self.start_url = kwargs['start_urls'][0]
         self.data_paths = get_data_paths(self.start_url)
         self.main_domain = [self.data_paths['domain']]
-        self.start_urls = [self.start_url]
+        self.start_urls = [self.data_paths['base_url']]
+        kwargs['start_urls'] = self.start_urls
+        self.max_to_scrap = int(kwargs.get('max_to_scrap', 10))
+        print(f'Start url: {self.start_urls[0]}, Domain: {self.main_domain}, Max to positives: {self.max_to_scrap}')
 
         #self.exported_data_path = os.path.join(DATA_OUTPUT_PATH, domain)
         #elf.main_domain = kwargs.get('main_domain')
-        self.max_to_scrap = int(kwargs.get('max_to_scrap', 10))
         self.num_scraped = 0
         self.link_extractor = LinkExtractor(allow_domains=self.main_domain)
         super(LinkSpider, self).__init__(*args, **kwargs)

@@ -8,18 +8,22 @@ DATA_OUTPUT_PATH = os.path.join(DATA_PATH, 'output')
 
 def extract_domain(base_url):
     domain = urlparse(base_url).netloc
+    if domain is '':
+        domain = base_url
     # TODO improve this subdomain extraction
     if 'www' in domain:
         domain = '.'.join(domain.split('.')[1:])
-    return domain
+    url = f'https://www.{domain}/'
+    return domain, url
 
 
 def get_data_paths(url):
-    domain = extract_domain(url)
+    domain, base_url = extract_domain(url)
     exported_data_path = os.path.join(DATA_OUTPUT_PATH, domain)
 
     return {
         'domain': domain,
+        'base_url': base_url,
         'exported_data_path': exported_data_path,
         'all_data_path': f'{exported_data_path}-all.csv',
         'positive_data_path': f'{exported_data_path}-positive.csv',
@@ -35,7 +39,7 @@ crawler_settings = {
     'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
     'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
     # End of Broad crawling configuration
-    'LOG_LEVEL': 'ERROR',
+    'LOG_LEVEL': 'CRITICAL',
     'DEPTH_LIMIT': 4,
     'CLOSESPIDER_PAGECOUNT': 25000,
     # Defaults to 8
