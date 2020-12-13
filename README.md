@@ -2,6 +2,7 @@
 # Automatic Crawler of Faculty Pages  
 
 Tool is live on this URL: https://sxxgrc.github.io/faculty-scraper/  
+Demo video under: doc/UsageDemo.mp4  
 
 Directory structure  
 
