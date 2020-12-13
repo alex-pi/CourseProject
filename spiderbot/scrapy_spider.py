@@ -1,7 +1,5 @@
 import scrapy
 import re
-import os
-from urllib.parse import urlparse
 from scrapy.crawler import CrawlerRunner
 from scrapy.crawler import CrawlerProcess
 from scrapy.linkextractors import LinkExtractor
@@ -10,8 +8,8 @@ from itemadapter import ItemAdapter
 from scrapy import signals
 from urlclassification import url_classification as uc
 from scrapy.exporters import CsvItemExporter
-from globals import DATA_OUTPUT_PATH
 from globals import get_data_paths
+from globals import crawler_settings as settings
 from pathlib import Path
 
 
@@ -42,8 +40,8 @@ class LinkSpider(scrapy.Spider):
     def item_scraped(self, item):
         self.num_scraped = self.num_scraped + 1
 
-    def closed(self, reason):
-        Path(self.data_paths['done']).touch()
+    #def closed(self, reason):
+    #    Path(self.data_paths['done']).touch()
 
     def parse(self, response):
         if self.num_scraped >= self.max_to_scrap:
@@ -106,21 +104,67 @@ class DuplicatesPipeline:
             return item
 
 
+class LinkItemExporterPipeline2:
+
+    def __init__(self):
+        self.batch = list()
+        self.batch_all = list()
+        self.exported = False
+
+    #def open_spider(self, spider):
+        #f = open(spider.data_paths['positive_data_path'], 'wb')
+        #f.close()
+
+    def process_item(self, item, spider):
+        if self.exported:
+            raise DropItem(f"{item!r} dropped, num URLs reached")
+        if spider.num_scraped < spider.max_to_scrap:
+            self.batch_all.append(item)
+            if item['label'] != 0:
+                print(f"Found candidate: {item['link']}")
+                self.batch.append(item)
+                return item
+            else:
+                raise DropItem(f"{item!r} is not a candidate")
+        elif not self.exported:
+            self.exported = True
+            with open(spider.data_paths['positive_data_path'], "w", encoding="utf-8") as f:
+                for it in self.batch:
+                    f.write(f"{it['label']},{it['depth']},{it['link']},{it['text']}\n")
+                f.flush()
+                self.batch.clear()
+            with open(spider.data_paths['all_data_path'], "w", encoding="utf-8") as f:
+                for it in self.batch_all:
+                    f.write(f"{it['label']},{it['depth']},{it['link']},{it['text']}\n")
+                f.flush()
+                self.batch_all.clear()
+            Path(spider.data_paths['done']).touch()
+
+
+
 class LinkItemExporterPipeline:
 
     def open_spider(self, spider):
         f = open(spider.data_paths['all_data_path'], 'wb')
-        f2 = open(spider.data_paths['positive_data_path'], 'wb')
+        self.f2 = open(spider.data_paths['positive_data_path'], 'wb')
         self.exporter_all = CsvItemExporter(f)
         self.exporter_all.start_exporting()
-        self.exporter_pos = CsvItemExporter(f2)
-        self.exporter_pos.start_exporting()   
+        self.exporter_pos = CsvItemExporter(self.f2)
+        self.exporter_pos.start_exporting()
+        self.finished = False
 
-    def close_spider(self, spider):
-        self.exporter_all.finish_exporting()
-        self.exporter_pos.finish_exporting()
+    #def close_spider(self, spider):
+    #    self.exporter_all.finish_exporting()
+    #    self.exporter_pos.finish_exporting()
 
     def process_item(self, item, spider):
+        if spider.num_scraped >= spider.max_to_scrap and not self.finished:
+            self.exporter_all.finish_exporting()
+            self.exporter_pos.finish_exporting()
+            self.finished = True
+            self.f2.flush()
+            raise DropItem(f"Dropping {item!r}, we had enough")
+
         self.exporter_all.export_item(item)
         if item['label'] != 0:
             print(f"Found candidate: {item['link']}")
@@ -135,38 +179,6 @@ class LinkItem(scrapy.Item):
     text = scrapy.Field()
     depth = scrapy.Field()
     label = scrapy.Field()
-
-
-settings = {
-    # 'DOWNLOAD_DELAY': 10,
-    # Broad crawling can demand more memory but page crawling is faster
-    # Next 3 lines force to do BFO instead of DFO
-    'DEPTH_PRIORITY': 1,
-    'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
-    'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
-    # End of Broad crawling configuration
-    'LOG_LEVEL': 'ERROR',
-    'DEPTH_LIMIT': 4,
-    'CLOSESPIDER_PAGECOUNT': 25000,
-    # Defaults to 8
-    'CONCURRENT_REQUESTS_PER_DOMAIN': 12,
-    # Concurrent items (per response) to be processed in the pipelines
-    'CONCURRENT_ITEMS': 30,
-    # False Improves performance at the cost of missing content
-    'RETRY_ENABLED': False,
-    'DOWNLOAD_TIMEOUT': 5,
-    'DNS_TIMEOUT': 2,
-    # Need to find a way to avoid secured pages that redirect to a login page
-    'REDIRECT_ENABLED': True,
-    'ITEM_PIPELINES': {
-        # We can add more pipeline steps like sending URL candidates to
-        # a second classifier based on actual page content.
-        'spiderbot.scrapy_spider.DuplicatesPipeline': 100,
-        'spiderbot.scrapy_spider.ClassificationPipeline': 110,
-        'spiderbot.scrapy_spider.LinkItemExporterPipeline': 300
-    }
-}
-
 
 def start(base_url, max_urls_to_scrap=50):
     '''More settings can be added here to change the spider behaviour
@@ -185,5 +197,5 @@ def cli_start(base_url, max_urls_to_scrap=50):
 
 if __name__ == "__main__":
     cli_start('https://illinois.edu/', max_urls_to_scrap=100)
-    #cli_start('https://www.stanford.edu/', max_urls_to_scrap=1000)
+    #cli_start('https://www.stanford.edu/', max_urls_to_scrap=300)
     #start('https://www.stanford.edu/')

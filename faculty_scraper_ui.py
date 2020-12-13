@@ -5,6 +5,7 @@ from globals import DATA_OUTPUT_PATH
 from urllib.parse import urlparse
 import os
 from threading import Thread
+from globals import get_data_paths
 
 import crochet
 crochet.setup()
@@ -16,7 +17,7 @@ app.config["CORS_HEADERS"] = "Content-Type"
 
 # Global vars.
 in_progress = set([])
-completed_tasks = {}
+#completed_tasks = {}
 
 # Flask routes.
 @app.route("/", methods=["POST"])
@@ -25,12 +26,8 @@ def submit():
     if request.method == "POST":
         url = request.json["url"]
 
-        if url in completed_tasks:
-            return_urls = completed_tasks[url]
-            del completed_tasks[url]
-            return jsonify(result=True, urls=return_urls)
-        elif url in in_progress:
-            return jsonify(result=False, urls=[])
+        if url in in_progress:
+            return check(url)
         else:
             # Scrape the URL.
             in_progress.add(url)
@@ -39,25 +36,40 @@ def submit():
             thread.start()
             return jsonify(result=False, urls=[])
 
+
+def check(url):
+    data_paths = get_data_paths(url)
+    if os.path.exists(data_paths['done']):
+        #csv_all_path = data_paths['all_data_path']
+        csv_path = data_paths['positive_data_path']
+        urls = convert_csv_to_json(csv_path)
+        #os.remove(csv_path)
+        #os.remove(csv_all_path)
+        os.remove(data_paths['done'])
+        in_progress.remove(url)
+        return jsonify(result=True, urls=urls)
+    return jsonify(result=False, urls=[])
+
+
 def scrape(url):
     scrape_with_crochet(url)
 
     # Convert the CSV data to JSON.
-    domain = urlparse(url).netloc
-    if 'www' in domain:
-        domain = '.'.join(domain.split('.')[1:])
-    csv_path = os.path.join(DATA_OUTPUT_PATH, domain)
-    csv_all_path = csv_path + "-all.csv"
-    csv_path += "-positive.csv"
-    completed_tasks[url] = convert_csv_to_json(csv_path)
-    os.remove(csv_path)
-    os.remove(csv_all_path)
-    in_progress.remove(url)
-    print(("=" * 15) +  " Done! " + ("=" * 15))
+    #domain = urlparse(url).netloc
+    #if 'www' in domain:
+    #    domain = '.'.join(domain.split('.')[1:])
+    #csv_path = os.path.join(DATA_OUTPUT_PATH, domain)
+    #csv_all_path = csv_path + "-all.csv"
+    #csv_path += "-positive.csv"
+    #completed_tasks[url] = convert_csv_to_json(csv_path)
+    #os.remove(csv_path)
+    #os.remove(csv_all_path)
+    #in_progress.remove(url)
+    #print(("=" * 15) +  " Done! " + ("=" * 15))
 
 @crochet.wait_for(timeout=99999)
 def scrape_with_crochet(url):
-    return start(url, max_urls_to_scrap=100)
+    return start(url, max_urls_to_scrap=200)
 
 def convert_csv_to_json(csvPath):
     urls = []
