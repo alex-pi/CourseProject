@@ -10,8 +10,10 @@ Directory structure
 |   README.md 
 |    
 +---data 
-|   |   finalized_model.sav >> svm model data 
+|   |   finalized_model.sav >> svm model data
+
 |   |   output.zip >> output example 
+
 |   |   TrainingDataSetTest.csv 
 |   |   TrainingTestingDataSet.csv 
 |   |    
