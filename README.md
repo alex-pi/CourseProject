@@ -28,6 +28,6 @@ Directory structure
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+---public  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+---src  
 &nbsp;&nbsp;&nbsp;&nbsp;faculty_scraper.js >> Main search page for UI, handles accessing the flask client and polling  
-&nbsp;&nbsp;&nbsp;&nbsp;results.js >> Main results page which displays the JSON result from the Flask client 
+&nbsp;&nbsp;&nbsp;&nbsp;results.js >> Main results page which displays the JSON result from the Flask client  
 &nbsp;&nbsp;&nbsp;&nbsp;+---urlclassification  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url_classification.py >> model training and classification  
